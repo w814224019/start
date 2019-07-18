@@ -1,0 +1,342 @@
+08:42:00.418 start [main] INFO  com.net.start.StartApplication - Starting StartApplication on PS-02 with PID 9228 (started by Admin in D:\开发工具\tts9\tts9\workspace\start)
+08:42:00.425 start [main] INFO  com.net.start.StartApplication - No active profile set, falling back to default profiles: default
+08:42:03.586 start [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+08:42:03.608 start [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+08:42:03.626 start [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+08:42:03.627 start [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+08:42:03.643 start [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+08:42:03.644 start [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+08:42:03.644 start [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+08:42:03.644 start [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+08:42:04.730 start [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+08:42:05.237 start [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08:42:05.344 start [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+08:42:05.345 start [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4778 ms
+08:42:06.326 start [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+08:42:07.140 start [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+08:42:07.257 start [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+08:42:07.262 start [main] INFO  com.net.start.StartApplication - Started StartApplication in 7.837 seconds (JVM running for 8.628)
+08:42:07.266 start [main] INFO  com.net.start.StartApplication - ------------成功启动springboot-----------
+08:42:15.357 start [http-nio-8080-exec-1] INFO  o.a.tomcat.util.http.parser.Cookie - A cookie header was received [1560754407,1560837104,1560908165; JSESSIONID=19E7DC91854435D978ACDD6065B57F21; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1560999310] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+08:42:15.367 start [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+08:42:15.368 start [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+08:42:15.375 start [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+08:43:35.533 start [http-nio-8080-exec-6] INFO  AliPayService.class - {"out_trade_no":"19-6-21 上午8:43","product_code":"FAST_INSTANT_TRADE_PAY"}
+08:43:36.146 start [http-nio-8080-exec-6] INFO  AliPayService.class - <form name="punchout_form" method="post" action="https://openapi.alipaydev.com/gateway.do?charset=utf-8&method=alipay.trade.page.pay&sign=aUenSvxyrl5R2zzwk7R2pg0nylYdk39rmB7G73LOEI%2BIl4z%2BHOxM6oppJLeq0uLQ6RHRuPKrsdkKdZZglQA0IzXjXR2k%2B5bLN6pmpODzTsqTUWYC5jAjOdZh1vxprnm5sqJpTPrV4kj12KWm0ox0EfQUKEhfC7WPe2Q63MW%2FHBG9z4zifBnYPJy6KM5ujXFcEjD00v3YECdlzKlqMNcOzodwxhR0OMOSkAmK%2FjyC58%2BAlmByaznF7qFzcj1A%2B8nXew%2FG5u8sYSHgDL7i9srwx1nhiLC6xaA2yqz00cIKl6pkUVVXsq5bGz08ROU94CQgidiowHQ82yBg2IeEPFTzyA%3D%3D&return_url=http%3A%2F%2Fg5kike.natappfree.cc%2Falipay%2Freturn_url&notify_url=http%3A%2F%2Fg5kike.natappfree.cc%2Falipay%2Fnotify_url&version=1.0&app_id=2016101000656644&sign_type=RSA2&timestamp=2019-06-21+08%3A43%3A35&alipay_sdk=alipay-sdk-java-dynamicVersionNo&format=json">
+<input type="hidden" name="biz_content" value="{&quot;out_trade_no&quot;:&quot;19-6-21 上午8:43&quot;,&quot;product_code&quot;:&quot;FAST_INSTANT_TRADE_PAY&quot;}">
+<input type="submit" value="立即支付" style="display:none" >
+</form>
+<script>document.forms[0].submit();</script>
+09:31:06.802 start [main] INFO  com.net.start.StartApplication - Starting StartApplication on PS-02 with PID 3948 (started by Admin in D:\开发工具\tts9\tts9\workspace\start)
+09:31:06.809 start [main] INFO  com.net.start.StartApplication - No active profile set, falling back to default profiles: default
+09:31:09.332 start [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+09:31:09.351 start [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+09:31:09.369 start [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:31:09.370 start [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+09:31:09.383 start [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+09:31:09.383 start [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+09:31:09.383 start [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+09:31:09.383 start [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+09:31:10.455 start [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+09:31:10.879 start [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09:31:10.895 start [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:31:10.895 start [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3967 ms
+09:31:11.708 start [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+09:31:12.373 start [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+09:31:12.473 start [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+09:31:12.480 start [main] INFO  com.net.start.StartApplication - Started StartApplication in 6.436 seconds (JVM running for 7.229)
+09:31:12.484 start [main] INFO  com.net.start.StartApplication - ------------成功启动springboot-----------
+09:31:30.728 start [http-nio-8080-exec-1] INFO  o.a.tomcat.util.http.parser.Cookie - A cookie header was received [1560754407,1560837104,1560908165; JSESSIONID=19E7DC91854435D978ACDD6065B57F21; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1560999310] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+09:31:30.739 start [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:31:30.739 start [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+09:31:30.753 start [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 14 ms
+09:31:30.896 start [http-nio-8080-exec-1] INFO  AliPayService.class - {"out_trade_no":"19-6-21 上午9:31","total_amount":"200","product_code":"FAST_INSTANT_TRADE_PAY"}
+09:31:31.334 start [http-nio-8080-exec-1] INFO  AliPayService.class - <form name="punchout_form" method="post" action="https://openapi.alipaydev.com/gateway.do?charset=utf-8&method=alipay.trade.page.pay&sign=QTvF357RsyvlAA7xrmd0bWNdJDbUHiGKAOpMQaOWRtryVHFSI6Gv6MazBkO4XHSdtrjflCOGkYRhIcmMMXN95TgYTHAcepekZycitlGD5Iis67iZZxrdhnQ2gaC7x%2FfcK2EwB2MMY4RgiUwIZFqnc9V4SXwDWODJ9W5m1m7jRQ1xI1eedvqT%2BVK6eg0D1TvQC2iOgl35nDOvgIiRuXssGyEl%2BJF27L1T0xItab3jadruHK%2BNzqKDcR%2Bn3Hol8UPMXrNnx6Jo0b5F1NWyYiDLm9zN67b1E8Wq15%2BdGfmgB6jWXF%2BjHfHKyNBlSiKcFH44b7Qx32mfdbeVEEGOGcl1ng%3D%3D&return_url=http%3A%2F%2Fg5kike.natappfree.cc%2Falipay%2Freturn_url&notify_url=http%3A%2F%2Fg5kike.natappfree.cc%2Falipay%2Fnotify_url&version=1.0&app_id=2016101000656644&sign_type=RSA2&timestamp=2019-06-21+09%3A31%3A30&alipay_sdk=alipay-sdk-java-dynamicVersionNo&format=json">
+<input type="hidden" name="biz_content" value="{&quot;out_trade_no&quot;:&quot;19-6-21 上午9:31&quot;,&quot;total_amount&quot;:&quot;200&quot;,&quot;product_code&quot;:&quot;FAST_INSTANT_TRADE_PAY&quot;}">
+<input type="submit" value="立即支付" style="display:none" >
+</form>
+<script>document.forms[0].submit();</script>
+09:53:43.844 start [main] INFO  com.net.start.StartApplication - Starting StartApplication on PS-02 with PID 4024 (started by Admin in D:\开发工具\tts9\tts9\workspace\start)
+09:53:43.849 start [main] INFO  com.net.start.StartApplication - No active profile set, falling back to default profiles: default
+09:53:46.249 start [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+09:53:46.267 start [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+09:53:46.279 start [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:53:46.280 start [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+09:53:46.292 start [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+09:53:46.292 start [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+09:53:46.292 start [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+09:53:46.293 start [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+09:53:47.353 start [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+09:53:47.795 start [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09:53:47.811 start [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:53:47.812 start [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3858 ms
+09:53:48.683 start [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+09:53:49.421 start [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+09:53:49.498 start [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+09:53:49.501 start [main] INFO  com.net.start.StartApplication - Started StartApplication in 6.43 seconds (JVM running for 7.252)
+09:53:49.504 start [main] INFO  com.net.start.StartApplication - ------------成功启动springboot-----------
+09:53:59.226 start [http-nio-8080-exec-1] INFO  o.a.tomcat.util.http.parser.Cookie - A cookie header was received [1560754407,1560837104,1560908165; JSESSIONID=19E7DC91854435D978ACDD6065B57F21; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1560999310] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+09:53:59.235 start [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:53:59.235 start [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+09:53:59.245 start [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+09:53:59.378 start [http-nio-8080-exec-1] INFO  PayController.class - {"out_trade_no":"19-6-21 上午9:53","total_amount":"null","product_code":"FAST_INSTANT_TRADE_PAY"}
+09:53:59.814 start [http-nio-8080-exec-1] INFO  PayController.class - <form name="punchout_form" method="post" action="https://openapi.alipaydev.com/gateway.do?charset=utf-8&method=alipay.trade.page.pay&sign=AQYmsVrc6kGJpvkWhAp4EKDye2y6GNpJrvWbDhu145e3m42jw8R1mUSuruIOIhlBED3Wa4Q2aXxnxY3EthTCEc1lptT4DPWCNFXnht4abs0QySqhavSYsqy6HFOFlO1Bcb0xbhywSXveiMbETnX5XGHdnYjojcSbKfL8fW4UIE6mDoz5Vvq4CDOgUMlbDplRmWUMOPSb9E7j%2Bp%2BIq6CScOavI8lnFVgVl%2F%2FXbT6qInByWxlIcVNwpTla4nSOXfj5sbpapBngjgCugNFuOsq%2Bp1lzFfSE7JCwa3HK%2BR2lSjGZ4Ed3IUgFZDcSNkf07%2B7f4EshUySOI%2FpLvN69dKDq1A%3D%3D&return_url=http%3A%2F%2Fg5kike.natappfree.cc%2Falipay%2Freturn_url&notify_url=http%3A%2F%2Fg5kike.natappfree.cc%2Falipay%2Fnotify_url&version=1.0&app_id=2016101000656644&sign_type=RSA2&timestamp=2019-06-21+09%3A53%3A59&alipay_sdk=alipay-sdk-java-dynamicVersionNo&format=json">
+<input type="hidden" name="biz_content" value="{&quot;out_trade_no&quot;:&quot;19-6-21 上午9:53&quot;,&quot;total_amount&quot;:&quot;null&quot;,&quot;product_code&quot;:&quot;FAST_INSTANT_TRADE_PAY&quot;}">
+<input type="submit" value="立即支付" style="display:none" >
+</form>
+<script>document.forms[0].submit();</script>
+09:56:43.024 start [main] INFO  com.net.start.StartApplication - Starting StartApplication on PS-02 with PID 11532 (started by Admin in D:\开发工具\tts9\tts9\workspace\start)
+09:56:43.030 start [main] INFO  com.net.start.StartApplication - No active profile set, falling back to default profiles: default
+09:56:45.455 start [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+09:56:45.476 start [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+09:56:45.491 start [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:56:45.492 start [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+09:56:45.504 start [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+09:56:45.504 start [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+09:56:45.505 start [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+09:56:45.505 start [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+09:56:46.557 start [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+09:56:47.002 start [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09:56:47.021 start [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:56:47.022 start [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3872 ms
+09:56:47.879 start [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+09:56:48.602 start [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+09:56:48.673 start [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+09:56:48.679 start [main] INFO  com.net.start.StartApplication - Started StartApplication in 6.371 seconds (JVM running for 7.153)
+09:56:48.682 start [main] INFO  com.net.start.StartApplication - ------------成功启动springboot-----------
+09:56:58.109 start [http-nio-8080-exec-1] INFO  o.a.tomcat.util.http.parser.Cookie - A cookie header was received [1560754407,1560837104,1560908165; JSESSIONID=19E7DC91854435D978ACDD6065B57F21; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1560999310] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+09:56:58.118 start [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:56:58.118 start [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+09:56:58.127 start [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+09:56:58.270 start [http-nio-8080-exec-1] INFO  PayController.class - {"out_trade_no":"19-6-21 上午9:56","total_amount":"null","product_code":"FAST_INSTANT_TRADE_PAY"}
+09:56:58.730 start [http-nio-8080-exec-1] INFO  PayController.class - <form name="punchout_form" method="post" action="https://openapi.alipaydev.com/gateway.do?charset=utf-8&method=alipay.trade.page.pay&sign=GOv5UqeMWEdVDzIPFF2FllQhRYuaYUcyPVwmcWo6vudp%2FbYWgSo%2BhGn%2FiJepirb7c3YkrKubBudsUO3jne5fTlmTUmSDF8pw97M4l7XYPsYc0zAGiBqei%2FBX1SK6HrbdMAf2809FXQWWNr%2FVJqt%2FZazQ6sy1WwP14bmmoK1vFEsbwVEH%2BRuD56HI1bGyWjZd3gYH1%2BzTkuS50U6f0KnHEnuQuBERX6%2FYtniBXP7msMpqZniReNsw29d0KIUFNGyC3JEauyiFwh%2F7LwmScnjXkWwtp5oh8IMs9udWGLyi%2FIxWYkSWb9uMa27PXJLV2GnK8EUM0wNvYcdcNaChoOy5qg%3D%3D&return_url=http%3A%2F%2Fg5kike.natappfree.cc%2Falipay%2Freturn_url&notify_url=http%3A%2F%2Fg5kike.natappfree.cc%2Falipay%2Fnotify_url&version=1.0&app_id=2016101000656644&sign_type=RSA2&timestamp=2019-06-21+09%3A56%3A58&alipay_sdk=alipay-sdk-java-dynamicVersionNo&format=json">
+<input type="hidden" name="biz_content" value="{&quot;out_trade_no&quot;:&quot;19-6-21 上午9:56&quot;,&quot;total_amount&quot;:&quot;null&quot;,&quot;product_code&quot;:&quot;FAST_INSTANT_TRADE_PAY&quot;}">
+<input type="submit" value="立即支付" style="display:none" >
+</form>
+<script>document.forms[0].submit();</script>
+09:59:33.020 start [main] INFO  com.net.start.StartApplication - Starting StartApplication on PS-02 with PID 7316 (started by Admin in D:\开发工具\tts9\tts9\workspace\start)
+09:59:33.024 start [main] INFO  com.net.start.StartApplication - No active profile set, falling back to default profiles: default
+09:59:35.508 start [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+09:59:35.525 start [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+09:59:35.537 start [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:59:35.538 start [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+09:59:35.553 start [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+09:59:35.553 start [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+09:59:35.553 start [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+09:59:35.554 start [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+09:59:36.617 start [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+09:59:37.093 start [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09:59:37.110 start [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:59:37.111 start [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3990 ms
+09:59:37.939 start [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+09:59:38.605 start [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+09:59:38.710 start [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+09:59:38.716 start [main] INFO  com.net.start.StartApplication - Started StartApplication in 6.423 seconds (JVM running for 7.232)
+09:59:38.719 start [main] INFO  com.net.start.StartApplication - ------------成功启动springboot-----------
+09:59:45.568 start [http-nio-8080-exec-1] INFO  o.a.tomcat.util.http.parser.Cookie - A cookie header was received [1560754407,1560837104,1560908165; JSESSIONID=19E7DC91854435D978ACDD6065B57F21; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1560999310] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+09:59:45.577 start [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:59:45.578 start [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+09:59:45.587 start [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+09:59:45.726 start [http-nio-8080-exec-1] INFO  PayController.class - {"out_trade_no":"19-6-21 上午9:59","total_amount":"null","product_code":"FAST_INSTANT_TRADE_PAY"}
+09:59:46.146 start [http-nio-8080-exec-1] INFO  PayController.class - <form name="punchout_form" method="post" action="https://openapi.alipaydev.com/gateway.do?charset=utf-8&method=alipay.trade.page.pay&sign=WaqpATz0wJZzQXpIVC7EHsCbCnnTjuX7o6mF61LhvjxwqC%2FS3Qwjk5yMH4qaO0o5%2F%2BalJpxXggZuj0H62H8E%2FB4T3W2GqUZACYW4l8VUu7ntVoXGyREl%2FFAQmFL2VGe0ObCZIFRYUWloEfxHWkP70yXaM2RQqmmVXc%2FxtBuXQw7duu6akoh%2FKb%2F1frX%2FUA0eR2wgfpXfNZV6EbCEFHN5jOlTjZfBRHL0Chug%2FEc9esK7CK2S9y%2BHDSlgFIX7VZxUtbuLbQNmvfFbeXoHN%2BeadpREa6I9S9%2Fucy28mbxVI1u2PWGTV0QsBYO09VNmwXhpT0SOwrf76FPZgp47CoLWRA%3D%3D&return_url=http%3A%2F%2Fg5kike.natappfree.cc%2Falipay%2Freturn_url&notify_url=http%3A%2F%2Fg5kike.natappfree.cc%2Falipay%2Fnotify_url&version=1.0&app_id=2016101000656644&sign_type=RSA2&timestamp=2019-06-21+09%3A59%3A45&alipay_sdk=alipay-sdk-java-dynamicVersionNo&format=json">
+<input type="hidden" name="biz_content" value="{&quot;out_trade_no&quot;:&quot;19-6-21 上午9:59&quot;,&quot;total_amount&quot;:&quot;null&quot;,&quot;product_code&quot;:&quot;FAST_INSTANT_TRADE_PAY&quot;}">
+<input type="submit" value="立即支付" style="display:none" >
+</form>
+<script>document.forms[0].submit();</script>
+10:08:24.922 start [main] INFO  com.net.start.StartApplication - Starting StartApplication on PS-02 with PID 14380 (started by Admin in D:\开发工具\tts9\tts9\workspace\start)
+10:08:24.928 start [main] INFO  com.net.start.StartApplication - No active profile set, falling back to default profiles: default
+10:08:27.337 start [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+10:08:27.357 start [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+10:08:27.372 start [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+10:08:27.372 start [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+10:08:27.387 start [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+10:08:27.388 start [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+10:08:27.388 start [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+10:08:27.388 start [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+10:08:28.449 start [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+10:08:28.887 start [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10:08:28.902 start [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+10:08:28.903 start [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3861 ms
+10:08:29.722 start [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+10:08:30.352 start [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+10:08:30.441 start [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+10:08:30.447 start [main] INFO  com.net.start.StartApplication - Started StartApplication in 6.261 seconds (JVM running for 7.231)
+10:08:30.451 start [main] INFO  com.net.start.StartApplication - ------------成功启动springboot-----------
+10:08:39.684 start [http-nio-8080-exec-1] INFO  o.a.tomcat.util.http.parser.Cookie - A cookie header was received [1560754407,1560837104,1560908165; JSESSIONID=19E7DC91854435D978ACDD6065B57F21; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1560999310] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+10:08:39.695 start [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:08:39.695 start [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+10:08:39.708 start [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+10:08:39.899 start [http-nio-8080-exec-1] INFO  PayController.class - {"out_trade_no":"19-6-21 上午10:08","total_amount":"null","product_code":"FAST_INSTANT_TRADE_PAY"}
+10:08:40.323 start [http-nio-8080-exec-1] INFO  PayController.class - <form name="punchout_form" method="post" action="https://openapi.alipaydev.com/gateway.do?charset=utf-8&method=alipay.trade.page.pay&sign=aFJ4ljje%2BNqimg3G88rt8BMM%2FVjudib0mZgdeUUhSyK5fNOL9FXhp3bbA%2FhZH2GZTOAeIWh2Eaa5J%2B8LHz36gQtrKZJH%2FYjnzfvuCKRuKaZlEKdOYcaBV8isNfstg7sQtp7P0fytO9I%2FHL%2BRK3TWLBNRK51YotaFrkyC5Kei434o6RuwHUJf32q%2BStEkdpkKNIC8%2BOpdk4cftlYUxdjqgmc8lsRMamf%2B71Ua%2BPSQIlEy8EF7sljwFXoQgBXNXVoFhvFoWXfiw5G9vHy%2FR84ZHS7pwsOXml0iekiSz5khhh%2F6YKaz4WZPcBZpWryTizO5NoKN2F2NoWPlckUbciF%2Fzw%3D%3D&return_url=http%3A%2F%2Fg5kike.natappfree.cc%2Falipay%2Freturn_url&notify_url=http%3A%2F%2Fg5kike.natappfree.cc%2Falipay%2Fnotify_url&version=1.0&app_id=2016101000656644&sign_type=RSA2&timestamp=2019-06-21+10%3A08%3A39&alipay_sdk=alipay-sdk-java-dynamicVersionNo&format=json">
+<input type="hidden" name="biz_content" value="{&quot;out_trade_no&quot;:&quot;19-6-21 上午10:08&quot;,&quot;total_amount&quot;:&quot;null&quot;,&quot;product_code&quot;:&quot;FAST_INSTANT_TRADE_PAY&quot;}">
+<input type="submit" value="立即支付" style="display:none" >
+</form>
+<script>document.forms[0].submit();</script>
+10:19:02.801 start [main] INFO  com.net.start.StartApplication - Starting StartApplication on PS-02 with PID 14712 (started by Admin in D:\开发工具\tts9\tts9\workspace\start)
+10:19:02.806 start [main] INFO  com.net.start.StartApplication - No active profile set, falling back to default profiles: default
+10:19:05.203 start [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+10:19:05.220 start [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+10:19:05.234 start [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+10:19:05.235 start [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+10:19:05.249 start [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+10:19:05.249 start [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+10:19:05.250 start [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+10:19:05.250 start [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+10:19:06.314 start [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+10:19:06.767 start [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10:19:06.785 start [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+10:19:06.786 start [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3880 ms
+10:19:07.319 start [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+10:19:07.337 start [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+10:19:38.333 start [main] INFO  com.net.start.StartApplication - Starting StartApplication on PS-02 with PID 14688 (started by Admin in D:\开发工具\tts9\tts9\workspace\start)
+10:19:38.338 start [main] INFO  com.net.start.StartApplication - No active profile set, falling back to default profiles: default
+10:19:40.842 start [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+10:19:40.861 start [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+10:19:40.878 start [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+10:19:40.879 start [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+10:19:40.895 start [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+10:19:40.896 start [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+10:19:40.896 start [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+10:19:40.896 start [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+10:19:41.975 start [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+10:19:42.390 start [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10:19:42.407 start [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+10:19:42.407 start [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3946 ms
+10:19:43.004 start [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+10:19:43.021 start [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+10:26:12.185 start [main] INFO  com.net.start.StartApplication - Starting StartApplication on PS-02 with PID 7916 (started by Admin in D:\开发工具\tts9\tts9\workspace\start)
+10:26:12.190 start [main] INFO  com.net.start.StartApplication - No active profile set, falling back to default profiles: default
+10:26:14.736 start [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+10:26:14.753 start [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+10:26:14.767 start [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+10:26:14.768 start [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+10:26:14.782 start [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+10:26:14.783 start [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+10:26:14.783 start [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+10:26:14.783 start [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+10:26:15.835 start [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+10:26:16.305 start [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10:26:16.322 start [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+10:26:16.322 start [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4033 ms
+10:26:17.132 start [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+10:26:17.792 start [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+10:26:17.886 start [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+10:26:17.895 start [main] INFO  com.net.start.StartApplication - Started StartApplication in 6.42 seconds (JVM running for 7.243)
+10:26:17.899 start [main] INFO  com.net.start.StartApplication - ------------成功启动springboot-----------
+10:27:30.179 start [http-nio-8080-exec-1] INFO  o.a.tomcat.util.http.parser.Cookie - A cookie header was received [1560754407,1560837104,1560908165; JSESSIONID=19E7DC91854435D978ACDD6065B57F21; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1560999310] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+10:27:30.189 start [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:27:30.190 start [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+10:27:30.198 start [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+10:27:37.928 start [http-nio-8080-exec-3] INFO  AliPayService.class - {"out_trade_no":"19-6-21 上午10:27","total_amount":"200.00","subject":"今天","product_code":"FAST_INSTANT_TRADE_PAY"}
+10:27:38.348 start [http-nio-8080-exec-3] INFO  AliPayService.class - <form name="punchout_form" method="post" action="https://openapi.alipaydev.com/gateway.do?charset=utf-8&method=alipay.trade.page.pay&sign=ZKj%2BDwEuItF84yNA%2Ff%2Bb2%2FUhuBNPz2GjN23JlxdAdy%2FfIZUOmsawDoj4NjZLDfsknml0FNPeJw%2BkhiaQyfBMputST6FYF3tldTTyl15xiHJRUvP%2Fw%2F1GKdlCguCtQgAZ4i44K8WRIg%2F00uMnskLva30qBStDK2RtMCiwLdPpZf%2Bc3JFr5dKUeoqsAbhQoGswUhZXh%2B8EJdfoI%2F8d7MRiDUfdTorwNxwCfBoPH50WxWhda9Vh1yJ5uO58D5%2BINMEjSZUhqmlv8q5n1TCd2oFq%2BjZeg6JfV2eSs9VmhiM%2FmjcLPh9Oj9RQ1QmEfhHVo4cn%2FlTb8h5Okc5pHUPXUqRRtA%3D%3D&return_url=http%3A%2F%2Fg5kike.natappfree.cc%2Falipay%2Freturn_url&notify_url=http%3A%2F%2Fg5kike.natappfree.cc%2Falipay%2Fnotify_url&version=1.0&app_id=2016101000656644&sign_type=RSA2&timestamp=2019-06-21+10%3A27%3A37&alipay_sdk=alipay-sdk-java-dynamicVersionNo&format=json">
+<input type="hidden" name="biz_content" value="{&quot;out_trade_no&quot;:&quot;19-6-21 上午10:27&quot;,&quot;total_amount&quot;:&quot;200.00&quot;,&quot;subject&quot;:&quot;今天&quot;,&quot;product_code&quot;:&quot;FAST_INSTANT_TRADE_PAY&quot;}">
+<input type="submit" value="立即支付" style="display:none" >
+</form>
+<script>document.forms[0].submit();</script>
+10:30:06.012 start [http-nio-8080-exec-6] INFO  AliPayService.class - {"out_trade_no":"19-6-21 上午10:30","total_amount":"200.00","subject":"今天","product_code":"FAST_INSTANT_TRADE_PAY"}
+10:30:06.027 start [http-nio-8080-exec-6] INFO  AliPayService.class - <form name="punchout_form" method="post" action="https://openapi.alipaydev.com/gateway.do?charset=utf-8&method=alipay.trade.page.pay&sign=QWYZVnN12Ze8F7CQgShu%2BanZHTk7Vb890u0kBjYCAgN6Z9DxQ%2B9gqba2iIuV%2ByQDGq8mvXPTbyzPb3r85YlaT%2BG0AFV9lY3czew2xPmnJ7cPncg6je6r6zwqGo2B0fHSjEYyOCJ8EToYt3hZ7Ws55%2FzcWffiR31u089kitED9L58yfGkYd2QZP1TQiYNL%2BEsrbxfE4tgG7IsVMo%2FkCMzNf1Q6HsVzY6NKbZLts15v%2F3RrFBZAJmz1W8CIE8L0vH6IJqT4gJz2MXcrOOztHdTZxpcUaWBkqdmFliJP%2Bl7huFv6b1wVaCje1BKyAmzBXLHRbbIKkpFxCxPm%2BkD2vkJRQ%3D%3D&return_url=http%3A%2F%2Fg5kike.natappfree.cc%2Falipay%2Freturn_url&notify_url=http%3A%2F%2Fg5kike.natappfree.cc%2Falipay%2Fnotify_url&version=1.0&app_id=2016101000656644&sign_type=RSA2&timestamp=2019-06-21+10%3A30%3A06&alipay_sdk=alipay-sdk-java-dynamicVersionNo&format=json">
+<input type="hidden" name="biz_content" value="{&quot;out_trade_no&quot;:&quot;19-6-21 上午10:30&quot;,&quot;total_amount&quot;:&quot;200.00&quot;,&quot;subject&quot;:&quot;今天&quot;,&quot;product_code&quot;:&quot;FAST_INSTANT_TRADE_PAY&quot;}">
+<input type="submit" value="立即支付" style="display:none" >
+</form>
+<script>document.forms[0].submit();</script>
+10:35:08.748 start [main] INFO  com.net.start.StartApplication - Starting StartApplication on PS-02 with PID 13284 (started by Admin in D:\开发工具\tts9\tts9\workspace\start)
+10:35:08.754 start [main] INFO  com.net.start.StartApplication - No active profile set, falling back to default profiles: default
+10:35:11.302 start [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+10:35:11.318 start [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+10:35:11.334 start [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+10:35:11.335 start [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+10:35:11.350 start [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+10:35:11.350 start [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+10:35:11.350 start [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+10:35:11.350 start [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+10:35:12.436 start [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+10:35:12.879 start [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10:35:12.898 start [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+10:35:12.898 start [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4026 ms
+10:35:13.669 start [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+10:35:14.337 start [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+10:35:14.431 start [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+10:35:14.438 start [main] INFO  com.net.start.StartApplication - Started StartApplication in 6.361 seconds (JVM running for 7.169)
+10:35:14.441 start [main] INFO  com.net.start.StartApplication - ------------成功启动springboot-----------
+10:36:09.706 start [http-nio-8080-exec-1] INFO  o.a.tomcat.util.http.parser.Cookie - A cookie header was received [1560754407,1560837104,1560908165; JSESSIONID=19E7DC91854435D978ACDD6065B57F21; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1560999310] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+10:36:09.717 start [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:36:09.717 start [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+10:36:09.729 start [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+10:36:09.912 start [http-nio-8080-exec-1] INFO  AliPayService.class - {"out_trade_no":"19-6-21 上午10:36","total_amount":"200.00","subject":"今天","product_code":"FAST_INSTANT_TRADE_PAY"}
+10:36:10.415 start [http-nio-8080-exec-1] INFO  AliPayService.class - <form name="punchout_form" method="post" action="https://openapi.alipaydev.com/gateway.do?charset=utf-8&method=alipay.trade.page.pay&sign=CkjfKlVeXm78z57lI7xF8fMHMIEdjxUg1ReiRN34wm33OdZC%2BrFH0dxIKjKnAdfyZC5fdgYpeX%2B1RHJeTinV5E2CJnLfnzaSCkx%2FEznJTsXjBrKPonpeU9kOxTy%2FcLlgjpcgJ3bNY28P3AmA4qvrMRNWo10MoL6fACYev1Be8WVt4EiXxPY%2FD4kWqHgs3qnPjfvrACyUb7OYdrjGrrMpgS%2BsyuuTju3l3Yt%2BEGSsrstlIVcdLE5GTWVrF6Kl0q2XblDrWJLOsg37R7Zrk6fwKAGWr2t%2FF3kWxHYlp7%2FCWR8W4VjeHCa0OfNFNSDph2adNrlZtFvVfsu7WutAHQ1J9A%3D%3D&return_url=http%3A%2F%2Fg5kike.natappfree.cc%2Falipay%2Freturn_url&notify_url=http%3A%2F%2Fg5kike.natappfree.cc%2Falipay%2Fnotify_url&version=1.0&app_id=2016101000656644&sign_type=RSA2&timestamp=2019-06-21+10%3A36%3A09&alipay_sdk=alipay-sdk-java-dynamicVersionNo&format=json">
+<input type="hidden" name="biz_content" value="{&quot;out_trade_no&quot;:&quot;19-6-21 上午10:36&quot;,&quot;total_amount&quot;:&quot;200.00&quot;,&quot;subject&quot;:&quot;今天&quot;,&quot;product_code&quot;:&quot;FAST_INSTANT_TRADE_PAY&quot;}">
+<input type="submit" value="立即支付" style="display:none" >
+</form>
+<script>document.forms[0].submit();</script>
+11:04:37.338 start [main] INFO  com.net.start.StartApplication - Starting StartApplication on PS-02 with PID 3692 (started by Admin in D:\开发工具\tts9\tts9\workspace\start)
+11:04:37.343 start [main] INFO  com.net.start.StartApplication - No active profile set, falling back to default profiles: default
+11:04:39.952 start [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+11:04:39.978 start [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+11:04:39.992 start [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:04:39.993 start [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+11:04:40.005 start [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+11:04:40.006 start [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+11:04:40.006 start [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11:04:40.006 start [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11:04:41.093 start [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+11:04:41.545 start [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11:04:41.570 start [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:04:41.570 start [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4132 ms
+11:04:42.371 start [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+11:04:42.958 start [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+11:04:43.107 start [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+11:04:43.116 start [main] INFO  com.net.start.StartApplication - Started StartApplication in 6.544 seconds (JVM running for 7.337)
+11:04:43.120 start [main] INFO  com.net.start.StartApplication - ------------成功启动springboot-----------
+11:05:06.633 start [http-nio-8080-exec-4] INFO  o.a.tomcat.util.http.parser.Cookie - A cookie header was received [1560754407,1560837104,1560908165; JSESSIONID=19E7DC91854435D978ACDD6065B57F21; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1560999310] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+11:05:06.646 start [http-nio-8080-exec-4] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:05:06.646 start [http-nio-8080-exec-4] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:05:06.657 start [http-nio-8080-exec-4] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+11:05:13.736 start [http-nio-8080-exec-3] INFO  AliPayService.class - {"out_trade_no":"19-6-21 上午11:05","total_amount":"200.00","subject":"56114会员充值","timeout_express":"2小时","product_code":"FAST_INSTANT_TRADE_PAY"}
+11:05:14.209 start [http-nio-8080-exec-3] INFO  AliPayService.class - <form name="punchout_form" method="post" action="https://openapi.alipaydev.com/gateway.do?charset=utf-8&method=alipay.trade.page.pay&sign=GZ1schKL3C3Hm%2FcoxCMkozeouKFH9FHQ4pVc%2BAPlcT%2BBHrssSVeELvQFPwpdO4DWJow4751bVTi2dKm7Z%2BHLeO1CQn7AAkHfMh0ZZaqnP39xHavNUasCsIRXR4W2R5GerqgsbV3P%2BbQM%2F1jrTuLxGDX0pXY4vQ%2BdL2P%2BWZU%2FeiziyYBWQwBbGksBnb%2FjejM1hzpL0fvk6naR%2Bs6SAVJi3reCljk5BDJ6UYPwpL9GnW987enHPPdCzURNKaW8DAohKs2Rx3OUwJbL5GBp7pBnZu%2FNNBr8tsDQ5bgL3X9VJweN%2Bm4cLDCGAV7h3JA1eJT4LhD8eKLEu%2FCDin6xooIdtA%3D%3D&return_url=http%3A%2F%2Fg5kike.natappfree.cc%2Falipay%2Freturn_url&notify_url=http%3A%2F%2Fg5kike.natappfree.cc%2Falipay%2Fnotify_url&version=1.0&app_id=2016101000656644&sign_type=RSA2&timestamp=2019-06-21+11%3A05%3A13&alipay_sdk=alipay-sdk-java-dynamicVersionNo&format=json">
+<input type="hidden" name="biz_content" value="{&quot;out_trade_no&quot;:&quot;19-6-21 上午11:05&quot;,&quot;total_amount&quot;:&quot;200.00&quot;,&quot;subject&quot;:&quot;56114会员充值&quot;,&quot;timeout_express&quot;:&quot;2小时&quot;,&quot;product_code&quot;:&quot;FAST_INSTANT_TRADE_PAY&quot;}">
+<input type="submit" value="立即支付" style="display:none" >
+</form>
+<script>document.forms[0].submit();</script>
+11:06:15.795 start [main] INFO  com.net.start.StartApplication - Starting StartApplication on PS-02 with PID 2912 (started by Admin in D:\开发工具\tts9\tts9\workspace\start)
+11:06:15.802 start [main] INFO  com.net.start.StartApplication - No active profile set, falling back to default profiles: default
+11:06:18.307 start [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+11:06:18.326 start [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+11:06:18.339 start [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:06:18.339 start [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+11:06:18.353 start [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+11:06:18.353 start [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+11:06:18.353 start [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11:06:18.354 start [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11:06:19.421 start [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+11:06:19.827 start [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11:06:19.841 start [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:06:19.842 start [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3902 ms
+11:06:20.655 start [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+11:06:21.314 start [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+11:06:21.380 start [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+11:06:21.384 start [main] INFO  com.net.start.StartApplication - Started StartApplication in 6.292 seconds (JVM running for 7.098)
+11:06:21.385 start [main] INFO  com.net.start.StartApplication - ------------成功启动springboot-----------
+11:07:12.121 start [http-nio-8080-exec-1] INFO  o.a.tomcat.util.http.parser.Cookie - A cookie header was received [1560754407,1560837104,1560908165; JSESSIONID=19E7DC91854435D978ACDD6065B57F21; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1560999310] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+11:07:12.135 start [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:07:12.135 start [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:07:12.148 start [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+11:07:12.318 start [http-nio-8080-exec-1] INFO  AliPayService.class - {"out_trade_no":"19-6-21 上午11:07","total_amount":"200.00","subject":"56114会员充值","product_code":"FAST_INSTANT_TRADE_PAY"}
+11:07:12.722 start [http-nio-8080-exec-1] INFO  AliPayService.class - <form name="punchout_form" method="post" action="https://openapi.alipaydev.com/gateway.do?charset=utf-8&method=alipay.trade.page.pay&sign=bltFAL4l%2BHkoK9%2Bfw4nXawACfMBGK2rWS6zIlr0xu4IzsaXTJCEzHnj%2BuqOEcASM8gHewnUYjD8%2B1%2F9IhEV4vgJGr%2FbsXVgXFyQHgJk9mzqS6XkdUNxjSLbEApeEe5mvPly3ESzX%2BT6h4ZDvJ0mZGdq5dXKOZN7HD9fIIKU2SIoGLX5%2BOBrQj3lYGWIRo34Ue0JvjjM96wHOxzZHZ%2FVGwv0bMlCiMqIl7VzNFTc%2B9jRSTLw1ZbvOqTAloBlCZTsCklETDxNC1sVjl%2BYaY7vyNBA7X8fxFtL21H75YizMeZ8tr%2FctgM4ZkVD2zscZ0a7I5xJ6tYk0reRjVzIyW9ts4g%3D%3D&return_url=http%3A%2F%2Fg5kike.natappfree.cc%2Falipay%2Freturn_url&notify_url=http%3A%2F%2Fg5kike.natappfree.cc%2Falipay%2Fnotify_url&version=1.0&app_id=2016101000656644&sign_type=RSA2&timestamp=2019-06-21+11%3A07%3A12&alipay_sdk=alipay-sdk-java-dynamicVersionNo&format=json">
+<input type="hidden" name="biz_content" value="{&quot;out_trade_no&quot;:&quot;19-6-21 上午11:07&quot;,&quot;total_amount&quot;:&quot;200.00&quot;,&quot;subject&quot;:&quot;56114会员充值&quot;,&quot;product_code&quot;:&quot;FAST_INSTANT_TRADE_PAY&quot;}">
+<input type="submit" value="立即支付" style="display:none" >
+</form>
+<script>document.forms[0].submit();</script>

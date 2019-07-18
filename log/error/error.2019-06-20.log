@@ -1,0 +1,18 @@
+18:16:38.155 start [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field staticVo in com.net.start.service.AliPayService required a bean of type 'com.net.start.entity.AlipayVo' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.net.start.entity.AlipayVo' in your configuration.
+

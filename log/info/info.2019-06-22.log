@@ -1,0 +1,41 @@
+14:48:55.844 start [main] INFO  com.net.start.StartApplication - Starting StartApplication on PS-02 with PID 16676 (started by Admin in D:\开发工具\tts9\tts9\workspace\start)
+14:48:55.851 start [main] INFO  com.net.start.StartApplication - No active profile set, falling back to default profiles: default
+14:48:59.623 start [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+14:48:59.651 start [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+14:48:59.677 start [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:48:59.678 start [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+14:48:59.702 start [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+14:48:59.702 start [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+14:48:59.702 start [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+14:48:59.703 start [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+14:49:00.803 start [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+14:49:01.628 start [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14:49:01.663 start [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:49:01.663 start [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5709 ms
+14:49:02.586 start [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+14:49:03.465 start [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+14:49:03.588 start [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+14:49:03.593 start [main] INFO  com.net.start.StartApplication - Started StartApplication in 8.649 seconds (JVM running for 9.594)
+14:49:03.597 start [main] INFO  com.net.start.StartApplication - ------------成功启动springboot-----------
+14:49:39.076 start [main] INFO  com.net.start.StartApplication - Starting StartApplication on PS-02 with PID 21484 (started by Admin in D:\开发工具\tts9\tts9\workspace\start)
+14:49:39.082 start [main] INFO  com.net.start.StartApplication - No active profile set, falling back to default profiles: default
+14:49:42.036 start [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+14:49:42.054 start [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+14:49:42.071 start [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:49:42.071 start [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+14:49:42.085 start [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+14:49:42.086 start [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+14:49:42.086 start [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+14:49:42.086 start [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+14:49:43.178 start [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+14:49:43.977 start [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14:49:44.015 start [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:49:44.016 start [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4808 ms
+14:49:45.076 start [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+14:49:45.981 start [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+14:49:46.081 start [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+14:49:46.087 start [main] INFO  com.net.start.StartApplication - Started StartApplication in 7.843 seconds (JVM running for 8.8)
+14:49:46.090 start [main] INFO  com.net.start.StartApplication - ------------成功启动springboot-----------
+14:50:52.946 start [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:50:52.946 start [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+14:50:52.957 start [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms

@@ -1,0 +1,175 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>56114物流查询网--专业的中文物流查询平台</title>
+<meta name="Keywords" content="56114,查物流,物流网,物流查询,专线查询,快递查询,全国物流查询网,中国物流查询网,物流114,货运公司,物流公司,快递公司,配货站,物流快递单号查询" />	
+<meta name="description" content="56114物流查询网,是中国专业的物流查询平台,该物流网专注于物流公司，物流专线,货车配货,物流单号,货运信息,快递查询的研发和服务。">
+<meta name="mobile-agent" content="format=xhtml;url=http://m.56114.net.cn/">
+<script type="text/javascript" src="http://static.56114.net.cn/js/m.js"></script>
+<script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/1.8.0/jquery.min.js"></script>
+<script type="text/javascript" src="http://56114.56114.net.cn/city180813.asp"></script>
+<link rel="stylesheet"  href="http://www.56114.net.cn/templets/default/css/index2.css?v=3"/>
+<script type="text/javascript" src="http://static.56114.net.cn/js/cityjson.js"></script>
+
+<script type="text/javascript" src="http://static.56114.net.cn/templets/default/js/index140823.js"></script>
+<link rel="stylesheet" type="text/css" href="http://static.56114.net.cn/templets/default/css/chinamap.css" />
+<style>body{ height:100%;min-height:700px;} .theme-popover{ top: 250px;}#zhens .az{ color:#fff;} #footer{ width:100%; position:absolute; bottom:20px;}.nav_box{ width:600px; margin:0 auto; text-align:left;}</style>
+</head>
+
+<body>
+<div class="page_wrapper" id="index_page">
+<div class="xfewm"><img src="http://static.56114.net.cn/images/weixin.gif"></div>
+	<div class="top_bar clearfix">
+<!--    	<div class="fl fenzhan" id="cityfenzhan"><a href="http://www.56114.net.cn/fenzhan.html">【切换分站】</a><a href="http://www.56114.net.cn/ha/zz.html" target="blank">进入郑州分站</a></div>
+-->
+	<div class="fl fenzhan" id="cityfenzhan"><a href="http://www.56114.net.cn/ha/zz.html">郑州物流网</a></div>
+		<div id	="userlogin">
+        	<div class="fr login_bar" id="username"><a href="http://passport.56114.net.cn/login.asp">登陆</a><span class="sep">|</span><a href="http://passport.56114.net.cn/reg.asp">免费注册</a></div>
+		</div>
+    </div>
+    <div class="header clearfix">
+    	<div class="logo">
+        
+<!--[if IE]>
+<style>
+.bodyer .gsss .gsmss{bottom:-5px;}
+</style>
+<![endif]-->
+        	<a><img src="http://static.56114.net.cn/images/logo_120816.gif" />
+		<a class='fz' href="http://www.56114.net.cn/fenzhan2.html">【切换分站】</a></div>
+    </div>
+    <div class="bodyer clearfix">
+    	<div class="nav_bar">
+        <div class="nav_box">
+        	<a  class='cgs'>查公司<img src="http://www.56114.net.cn/images/sj.jpg" class='sjx'></a>
+        	<a  class='czx lvs'>查专线<img src="http://www.56114.net.cn/images/sj.jpg" class='sjxe'></a> 
+            <a href="http://ww.56114.net.cn/" target="blank">查单号</a> 
+            <!--<a href="http://www.56114.net.cn/kuaidi/kd.html" target="blank">查快递</a>--> 
+            <a href="http://www.56114.net.cn/tool/wangdian.asp?city=郑州" target="blank">查网点</a> 
+            <a href="http://www.56114.net.cn/tool/yuanqu.asp" target="blank">查园区</a> 
+            <a href="https://www.56114.net/" target="blank">物流管家</a> 
+            <a target="blank"></a> 	            
+          <!--<a href="#">更多>></a>-->
+        </div>	
+        </div>	
+    	<div class="row row1 sear_box">
+			<form onsubmit="return zx()" >
+                <div class="zx clearfix">
+                	<span class="zx_inpb">
+                    	<span class="zx_cfd_inpb" ><label>出发地</label><input name="city" autocomplete="off" id="cfd" type="text" class="zx_cfd_inp"  value="郑州"/></span>
+                        <span class="arrow"><img src="http://static.56114.net.cn/images/jiantou.gif" /></span>
+                        <span class="zx_ddd_inpb" ><label>到达地</label><input name="city3" id="ddd" autocomplete="off" type="text" class="zx_ddd_inp"  /></span>
+                    </span>
+                    <input name="l" type="hidden" id="l" value="" />
+                    <input name="cfdid" id="cfdid" type="hidden" value="6">
+                    <input name="dddid" id="dddid" type="hidden" value="">
+                    <span class="zx_btnb"><input class="zx_btn" type="button" onclick="zx()" value="专线查询"></span>
+                </div>
+            </form>
+           
+            
+        </div>
+	<form method='get' action="http://www.56114.net.cn/search_gjz.asp">
+        <div class='gsss' style="display:none;">        	
+            <input name="key" type="text" id='key' class="gsm" value="请输入公司简称，如：德邦">
+            <span class="gs_btnb"><input class="gs_btn" type="submit" value="公司查询"/><input type="hidden" name="search" value="true" /></span>
+            
+            
+               
+            
+        </div>
+    </form>
+<script>
+$("#key").click(function(){
+  $("#key").attr("value","");
+});
+$(document).ready(function(){
+	$(".cgs").on('click',function(){
+		$(this).siblings("a").removeClass("lvs"); 
+		$(this).addClass("lvs");
+		$("#l").val("");
+		$(".row1,.sjxe,.sjxezc").hide();
+		$(".gsss,.sjx").show();
+        document.getElementById('key').value='请输入公司简称，如：德邦';
+		})
+	$(".czx").on('click',function(){
+		$(this).siblings("a").removeClass("lvs"); 
+		$(this).addClass("lvs");
+		$(".sjx,.sjxezc,.gsss").hide();
+		$(".row1,.sjxe").show();
+		$(".zx_btn").val("专线查询");
+		$("#l").val("");
+		})
+ 
+})
+</script>
+
+    </div><!-- xia 结束 --><div style="clear:both"></div>
+   
+</div>
+
+ <div class="footer clearfix" id="footer">
+   	  <p class="ft_link"><a href="http://www.56114.net.cn/help/1.html" target="_blank">关于56114</a><span class="sep">|</span><a href="http://www.56114.net.cn/help/8.html" target="_blank">业务合作</a><span class="sep">|</span><a href="http://www.56114.net.cn/help/2.html" target="_blank">联系我们</a><span class="sep">|</span><a href="http://www.56114.net.cn/help/jianyi.html" target="_blank">意见反馈</a><span class="sep">|</span><a href="http://www.56114.net.cn/help/jianyi.html" target="_blahk">我要纠错</a><span class="sep">|</span><a href="http://www.56114.net.cn/link.html" target="_blank">友情链接</a></p>
+    <p class="copyright"><span>56114物流查询网</span><span class="sep"></span><span><a href="http://www.56114.net.cn/help/3.html" target="_blank">使用前必读</a></span><span class="sep"></span><span><a href="http://www.miitbeian.gov.cn" target="_blank">豫ICP备09031960号</a></span></p>
+    </div> 
+
+<div class="theme-popover-mask"></div>
+<div id="WTMap_Main" >
+<div id="china_map">
+<a class="c-close">×</a>
+<img  src="http://static.56114.net.cn/images/map.png"style="position: absolute; width: 660px; height: 460px;left: 100px;top: 0px;z-index:9999;display:none;" />
+<span class="c-span">一、国内线路：</span>
+
+<div class="china-mapbox"> 
+
+</div>
+</div>
+<div class="theme-popover">
+  <div class="theme-poptit">
+		<a href="javascript:;" title="关闭" class="close" style="z-index: 9999999999;">×</a>
+		<h3 style="float: left;">请选择具体城市</h3>
+        <div class="prince-a" ></div>
+	</div>
+	<div class="theme-bottom">
+	<div class="province-mapbox clearfix">
+    <div class="province-mapboxs clearfix">
+    <p class="warning">浏览器版本太低，请更换浏览器，显示地图</p>
+	<div id="province_maps" class="clearfix">
+
+</div>
+</div>
+</div>
+	<div class="theme-popbod dform" style=" position:relative">
+        <div id="shi"></div>
+        <div id="zhen"></div>
+		<div style="both:clear;"></div>
+	</div>
+	</div>
+</div>
+</div>
+	
+<div class="m-box">
+</div>
+</div>
+<script type="text/javascript" src="http://static.56114.net.cn/templets/default/js/cityjson.js"></script>
+<script type="text/javascript" src="http://static.56114.net.cn/templets/default/js/xianzhenjson.js"></script>
+<script type="text/javascript" src="http://static.56114.net.cn/templets/default/js/chinamap.js"></script>
+<script type="text/javascript" src="http://static.56114.net.cn/templets/default/js/provincemap.js" charset="gb2312"></script>
+<script type="text/javascript" src="http://static.56114.net.cn/templets/default/js/guojijson.js" charset="gb2312"></script>
+
+</body>
+</html>
+<script>
+$(window).resize(function() {
+    var window_height = $(window).height();//获取浏览器窗口宽度
+    if(window_height<=500){
+          $('#footer').css("position","relative")
+    }else{
+		  $('#footer').css("position","absolute")
+		}
+   
+});
+</script>

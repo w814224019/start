@@ -1,0 +1,194 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport"
+	content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<link rel="Bookmark" href="/favicon.ico">
+<link rel="Shortcut Icon" href="/favicon.ico" />
+<!--[if lt IE 9]>
+<script type="text/javascript" src="lib/html5shiv.js"></script>
+<script type="text/javascript" src="lib/respond.min.js"></script>
+
+<![endif]-->
+	
+
+<!--[if IE 6]>
+<script type="text/javascript" src="lib/DD_belatedPNG_0.0.8a-min.js" ></script>
+<script>DD_belatedPNG.fix('*');</script>
+<![endif]-->
+<title>刷新设置</title>
+</head>
+<body>
+<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 物流公司管理 <span class="c-gray en">&gt;</span> 充值刷新 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+<div class="page-container">
+		<button onclick="removeIframe()" class="btn btn-primary radius">物流公司或网点ID</button>
+	 <input  type="text" class="input-text" style="width:100px" placeholder="输入id"       id="companyId" name=""> 
+	 <button onclick="removeIframe()" class="btn btn-primary radius">线路序号ID</button>
+	 <input  type="text" class="input-text" style="width:100px" placeholder="输入id"       id="xid" name=""> 
+	 <button onclick="removeIframe()" class="btn btn-primary radius">颜色</button>
+	 <input  type="text" class="input-text" style="width:100px" placeholder="输入id"       id="status" name=""> 
+	<div class="cl pd-5 bg-1 bk-gray mt-20"> <span class="l">
+	 <a class="btn btn-primary radius" data-title="" data-href="article-add.html" onclick="Hui_admin_tab(this)" href="javascript:;"> 设置刷新计划</a>
+	设置次数：
+	<input  type="text" class="input-text" style="width:150px" placeholder="刷新次数不能为空" id="total" name="">次数 
+	
+	</span><br/><br/>
+	
+	<form>
+	
+	
+	启用：<input type="checkbox" value="" name="">
+	日期范围：<span>08:00</span> 
+	-
+	<span>12:00</span> 
+	间隔时间：
+	<input  type="text" class="input-text" style="width:100px" placeholder="输入正整数" id="a1" name="">分钟 
+	
+	<br/>
+	 启用：<input type="checkbox" value="" name="">
+	日期范围：<span>13:00</span> 
+	-
+	<span>18:00</span> 
+	间隔时间：
+	<input  type="text" class="input-text" style="width:100px" placeholder="输入正整数" id="a2" name="">分钟 
+	
+	<br/>
+	 启用：<input type="checkbox" value="" name="">
+	日期范围：<span>19:00</span> 
+	-
+	<span>21:00</span> 
+	间隔时间：
+	<input  type="text" class="input-text" style="width:100px" placeholder="输入正整数" id="a3" name="">分钟 
+	
+	<br/>
+	 
+	 
+	
+	</form> <a href="javascript:;" onclick="setFrequencyCron()" class="btn btn-danger radius"> 设置</a>
+	<a href="javascript:;" onclick="selds()" class="btn btn-danger radius"> 查询列表</a>
+	<input  type="text" class="input-text" style="width:100px" placeholder="输入id"    id="lname" name=""> 
+	 </div>
+	<div class="mt-20">
+	
+		<table class="table table-border table-bordered table-bg table-hover table-sort table-responsive">
+			<thead>
+				<tr class="text-c">
+					<th width="25"><input type="checkbox" name="" value=""></th>
+					<th width="80">序号</th>
+					
+					<th width="80">状态</th>
+					<th>刷新时间</th>
+					
+					<th width="120">操作</th>
+				</tr>
+			</thead>
+			<tbody id="table-result">
+			<div id="company">
+				<tr class="text-c">
+					<td><input type="checkbox" value="" name=""></td>
+					<td>10001</td>
+					<td >过期</td>
+					<td>2014-6-11 11:11:42</td>
+					<td class="f-14 td-manage"><a style="text-decoration:none" onClick="article_stop(this,'10001')" href="javascript:;" title="下架"><i class="Hui-iconfont">&#xe6de;</i></a> <a style="text-decoration:none" class="ml-5" onClick="article_edit('资讯编辑','article-add.html','10001')" href="javascript:;" title="编辑"><i class="Hui-iconfont">&#xe6df;</i></a> <a style="text-decoration:none" class="ml-5" onClick="article_del(this,'10001')" href="javascript:;" title="删除"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
+<!--_footer 作为公共模版分离出去-->
+<script src="../bootstrap3/js/holder.js"></script>
+		<link href="../bootstrap3/css/bootstrap.css" rel="stylesheet" type="text/css">
+		<script src="../bootstrap3/jquery-1.9.1.min.js"></script>
+		<script src="../bootstrap3/js/bootstrap.js"></script>
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript">
+function setFrequencyCron(){
+	var url="../setFrequencyCron";
+	 var id=$.trim($("#xid").val());
+	 var companyId=$.trim($("#companyId").val());
+	 var a1=$.trim($("#a1").val());
+	 var a2=$.trim($("#a2").val());
+	 var a3=$.trim($("#a3").val());
+	 var total=$.trim($("#total").val());
+	 var status=$.trim($("#status").val());
+	/* //判断正整数
+	 var re = /^[1-9]+[0-9]*]*$/;
+		if (!re.test(a1)||!re.test(a2)||!re.test(a3)||!re.test(total)) {
+			alert("请输入正整数");
+			
+		} */
+	console.log("参数data:"+a1);
+	$.ajax({
+		"url":url,
+	  "data":{
+		  "id":id,
+		  "companyId":companyId,
+		  "a1":a1,
+		  "a2":a2,
+		  "a3":a3,
+		  "total":total,
+		  "status":status,
+		},  
+		"type":"post",
+		"dataType":"json",
+		"success":function(json){
+			if(json.state==200){
+				alert("设置刷新成功！");
+				//location.href="blank5";
+			}else if(json.state==402){
+				alert(json.message);
+			}
+			
+		}
+	});
+}
+//查询selds
+function selds(){
+	var url='../selds';
+	 var name=$.trim($("#lname").val());
+	var tbody=window.document.getElementById("table-result");
+	$.ajax({
+		"url":url,
+	  "data":{
+		  "name":name,
+	  },
+		"type":'post',
+		"dataType":"json",
+		"success":function(json){
+				if(json.state==200){
+					var str="";
+					var data=json.data;
+					$("#company").text(str);
+					for(i in data){
+						str+="<tr class='text-c'>"+
+						"<td ><input type='checkbox'  value="+data[i].areaid+" name='duoxuan'></td>"+
+						"<td align='center'>"+data[i].id+"</td>"+
+						"<td align='center'><a href='javascript:;'  class='btn btn-primary radius'>"+data[i].lineId+"</a></td>"+
+						"<td align='center'>"+data[i].time+"</td>"+
+						"<td align='center'>"+data[i].status+"</td>"+
+						"</tr>";
+					}
+					tbody.innerHTML=str;
+				}else{
+					alert(json.message);
+				}
+				
+			}
+
+});
+	}
+
+
+
+
+
+</script>
+
+
+</body>
+
+</html>

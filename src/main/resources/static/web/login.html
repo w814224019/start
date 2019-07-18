@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>登录页面</title>
+<script src="../bootstrap3/js/holder.js"></script>
+		<link href="../bootstrap3/css/bootstrap.css" rel="stylesheet" type="text/css">
+		<script src="../bootstrap3/jquery-1.9.1.min.js"></script>
+		<script src="../bootstrap3/js/bootstrap.js"></script>
+</head>
+<body>
+<form id="form-login" action="">
+用户名：<input name="username"/><br/>
+密码：<input name="password"/><br/>
+登录：<input id="btn-login" type="button" value="确定登录">
+</form>
+<script type="text/javascript">
+          
+          
+          
+          
+          
+          
+          
+		$("#btn-login").click(function(){
+		var url="../login.do";
+		var data=$("#form-login").serialize();
+		
+		console.log("登录参数:"+data);
+		$.ajax({
+			"url":url,
+			"data":data,
+			"type":"post",
+			"dataType":"json",
+			"success":function(json){
+				if(json.state==200){
+					alert("登录成功！"+json.data+json.state);
+				location.href="test";
+				}else{
+					alert(json.message);
+				}
+				
+			}
+			
+			
+		});
+		
+		
+		
+		});
+		
+		
+		
+		
+		
+		</script>  
+            
+</body>
+</html>

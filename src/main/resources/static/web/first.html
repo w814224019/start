@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="UTF-8">
+<title>首页</title>
+<script src="../bootstrap3/js/holder.js"></script>
+		<link href="../bootstrap3/css/bootstrap.css" rel="stylesheet" type="text/css">
+		<script src="../bootstrap3/jquery-1.9.1.min.js"></script>
+		<script src="../bootstrap3/js/bootstrap.js"></script>
+</head>
+<body>
+<form id="form-select"   >
+                <div class="zx clearfix">
+                	<span class="zx_inpb">
+                    	<span class="zx_cfd_inpb" ><label>出发地</label><input id="cityFrom" name="cityFrom" autocomplete="off" id="cfd" type="text" class="zx_cfd_inp"  value="郑州"/></span>
+                        <span class="arrow"><img src="http://static.56114.net.cn/images/jiantou.gif" /></span>
+                        <span class="zx_ddd_inpb" ><label>到达地</label><input id="cityTo"name="cityTo" id="ddd" autocomplete="off" type="text" class="zx_ddd_inp" value="南阳" /></span>
+                    </span>
+                                 <input  id="fxcx" type="button" value="反向查询"/>
+                    <span class="zx_btnb"><input class="zx_btn" id="btn-select" type="button"  value="专线查询"   ></span>
+                <a type="button" href="second.html">注册</a>
+                <a type="button" href="login.html">登录</a>
+                </div>
+                 
+              <span id="company"  ></span>
+               <table border="1" id="table-result" width="80%" align="center">
+             
+               <tr>
+               <th>ID</th>
+               <th>公司名称</th>
+               <th>QQ</th>
+               <th>电话</th>
+               </tr>
+               <tbody id="tbody-result"> <tr>
+               <th>110</th>
+               <th>德邦物流</th>
+               <th>342354</th>
+               <th>124134235</th>
+               </tr>
+               </tbody>
+           
+               </table>
+              
+            </form>
+          <script type="text/javascript">
+          
+          $("#fxcx").click(function(){
+      		var url="../user/selectAll.do";
+      		var cityFrom=$.trim($("#cityTo").val());
+      		var cityTo=$.trim($("#cityFrom").val());
+      		var tbody=window.document.getElementById("tbody-result")
+      		console.log("注册参数cityFrom:"+cityFrom);
+      		$.ajax({
+      			"url":url,
+      			"data":{
+      				"cityFrom":cityFrom,
+      		         "cityTo":cityTo
+      				
+      			},
+      			"type":"post",
+      			"dataType":"json",
+      			"success":function(json){
+      				if(json.state==200){
+      					alert("成功！"+json.data+json.state);
+      					var str="";
+      					var data=json.data;
+      					$("#company").text(str);
+      					for(i in data){
+      						str+="<tr>"+
+      						"<td align='center'>"+data[i].uid+"</td>"+
+      						"<td align='center'>"+data[i].company+"</td>"+
+      						"<td align='center'>"+data[i].qq+"</td>"+
+      						"<td align='center'>"+data[i].phone+"</td>"+
+      						"</tr>";
+      					}
+      					tbody.innerHTML=str;
+      				}else{
+      					alert(json.message);
+      				}
+      				
+      			}
+      			
+      			
+      		});
+      		
+      		
+      		
+      		});
+      		
+          
+          
+          
+          
+          
+		$("#btn-select").click(function(){
+		var url="../user/selectAll.do";
+		var data=$("#form-select").serialize();
+		var tbody=window.document.getElementById("tbody-result")
+		console.log("注册参数:"+data);
+		$.ajax({
+			"url":url,
+			"data":data,
+			"type":"post",
+			"dataType":"json",
+			"success":function(json){
+				if(json.state==200){
+					alert("成功！"+json.data+json.state);
+					var str="";
+					var data=json.data;
+					$("#company").text(str);
+					for(i in data){
+						str+="<tr>"+
+						"<td align='center'>"+data[i].uid+"</td>"+
+						"<td align='center'>"+data[i].company+"</td>"+
+						"<td align='center'>"+data[i].qq+"</td>"+
+						"<td align='center'>"+data[i].phone+"</td>"+
+						"</tr>";
+					}
+					tbody.innerHTML=str;
+				}else{
+					alert(json.message);
+				}
+				
+			}
+			
+			
+		});
+		
+		
+		
+		});
+		
+		
+		
+		
+		
+		</script>  
+            
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>首页</title>
+<script src="../bootstrap3/js/holder.js"></script>
+		
+		<script src="../bootstrap3/jquery-1.9.1.min.js"></script>
+		<script src="../bootstrap3/js/bootstrap.js"></script>
+</head>
+<body>
+<form id="form-select"   >
+                <div class="zx clearfix">
+                	<span class="zx_inpb">
+                    	<span class="zx_cfd_inpb" ><label>出发地</label><input name="cityFrom" autocomplete="off" id="cfd" type="text" class="zx_cfd_inp"  value="郑州"/></span>
+                        <span class="arrow"><img src="http://static.56114.net.cn/images/jiantou.gif" /></span>
+                        <span class="zx_ddd_inpb" ><label>到达地</label><input name="cityTo" id="ddd" autocomplete="off" type="text" class="zx_ddd_inp"  /></span>
+                    </span>
+
+                    <span class="zx_btnb"><input class="zx_btn" id="btn-select" type="submit" onclick="zx()" value="专线查询"></span>
+                </div>
+                <tr>
+              
+                <td id="company"></td>
+                </tr>
+            </form>
+          <script type="text/javascript">
+		$(document).ready(function(){
+		var url="../user/selectAll.do";
+		$.ajax({
+			"url":url;
+		    "type":"POST";
+		"dataType":"json";
+		"success":function(json){
+			var coms=json.data;
+			for(var i=0;i<coms.length;i++){
+				console.log("coms[i]":com[i]);
+				
+				$("#compamy").val(coms[i]});
+			}
+			
+			
+			
+			
+		}
+		
+		});
+		
+		
+		
+		});
+		
+		
+		
+		
+		
+		</script>  
+            
+</body>
+</html>

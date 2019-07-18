@@ -1,0 +1,19 @@
+
+{ 'province':[{'companyName': '中山广兴物流有限公司', 
+'companyAddress': '中山市东凤镇天乙物流城B2栋15档', 
+'contact': '吴自豪', 'phone': '13392914001',
+ 'telephone': '0760-22771756',
+ 'picturePath': 'https://wxwc.oss-cn-hangzhou.aliyuncs.com/linepic/90625/b1a86a43-5382-4055-86ef-115d84aeadaf.jpg',
+  'branchCompanyList': 
+[{'address': '郑州华南城六盛钢材东门2号', 
+'phone': '18037122789', 'telephone': '0371-55556155'}]
+}, 
+{'companyName': '苏州康顺物流有限公司', 'companyAddress': '苏州金阊区传化物流港K709-712库', 'contact': '王先生', 'phone': '18136089888', 'telephone': '18501510898', 'picturePath': 'https://wxwc.oss-cn-hangzhou.aliyuncs.com/linepic/72706/58756f08-f18a-4d04-adb9-d614dc216e6b.jpg', 
+'branchCompanyList': 
+[{'address': '十八里河高速口向南5公里路东天河物流园院内3排12-16号库', 'phone': '', 
+'telephone': '0371-55258858'}]}, 
+{'companyName': '苏州佳宏物流有限公司', 'companyAddress': '苏州市金阊区传化物流基地K417-K421库', 'contact': '顾经理', 'phone': '13656187777', 'telephone': '0512-88160555', 
+'picturePath': 'https://wxwc.oss-cn-hangzhou.aliyuncs.com/linepic/72708/preview-pic1.jpg', 
+'branchCompanyList': [{'address': '郑州市侯寨出口下高速300米路左交运集团院内1', 'phone': '13783581444', 'telephone': '3243'}]
+}]
+}

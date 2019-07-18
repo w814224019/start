@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="../bootstrap3/js/holder.js"></script>
+		<link href="../bootstrap3/css/bootstrap.css" rel="stylesheet" type="text/css">
+		<script src="../bootstrap3/jquery-1.9.1.min.js"></script>
+		<script src="../bootstrap3/js/bootstrap.js"></script>
+</head>
+<body>
+输入网址：<input type="text" id="wwwdata" value="" >
+<button id="wwwbtn">查询</button><br>
+
+<div id="wwwok"> </div><br>
+
+<hr>
+<!-- src="${pageContext.request.contextPath}/js/jquery.min.js" -->
+<script type="text/javascript" > 
+//根据网址 查询网址 信息
+    $("#wwwbtn").click(function(){
+        var http = $("#wwwdata").val();
+        
+            $.ajax({
+                url:"http://localhost:8080/http",
+                type:"get",
+                data:{http:http},
+                dataType:"json",
+                success:function(title){
+                    if(title.state==200){
+                    	
+                        var obj = title.data;
+                        console.log('fetchAllTags list',obj);
+                        $("#wwwok").html(http+"查询结果:"+obj.title) ;
+                    }
+
+
+                }
+            });
+        });
+
+    </script>
+</body>
+</html>

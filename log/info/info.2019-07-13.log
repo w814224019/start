@@ -1,0 +1,259 @@
+14:51:08.540 start [main] INFO  com.net.start.StartApplication - Starting StartApplication on PS-02 with PID 18776 (started by Admin in D:\开发工具\tts9\tts9\workspace\start)
+14:51:08.547 start [main] INFO  com.net.start.StartApplication - No active profile set, falling back to default profiles: default
+14:51:11.771 start [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+14:51:11.795 start [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+14:51:11.808 start [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:51:11.808 start [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+14:51:11.822 start [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+14:51:11.822 start [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+14:51:11.822 start [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+14:51:11.823 start [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+14:51:12.912 start [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+14:51:13.495 start [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14:51:13.640 start [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:51:13.640 start [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4956 ms
+14:51:14.726 start [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+14:51:15.512 start [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+14:51:15.646 start [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+14:51:15.652 start [main] INFO  com.net.start.StartApplication - Started StartApplication in 8.057 seconds (JVM running for 8.997)
+14:51:15.656 start [main] INFO  com.net.start.StartApplication - ------------成功启动springboot-----------
+14:51:34.350 start [http-nio-8080-exec-1] INFO  o.a.tomcat.util.http.parser.Cookie - A cookie header was received [1560754407,1560837104,1560908165; user=90b93f1f-c1a0-46be-9f3a-6a2c3413fbf0; rememberMe=VxdC/dXdGaPFlCY/sZos031YtSI31jeJWqg1EeEvqiohlRnFa1k52VbxjutiqgSXu0fhYEar6OGCIgR7VjwEBc7zMOJqJPNXlWnWKh4Mi0wSc3XzAW6wD7KBVHgps4bru0XfYaipuBvhoLhWsivSIv2YJd4bFYFYfCs7F45+lAaVE1BafP7K1958/DYC1cLVnHTQEn7ZIzx19YOtg1taYg5dbYpIC1q/ar8fENTAoQt1a0f05TsxaC1f0pVXMBaWutf7d3pIWq1elXtBduPITRHVejpUl3UOOljGWRymIASeOe36ZaDndg1pm6ZuyEYjL4PkPIXlKq9spnHZXyypMcSL1KOo7+gr0HCiY0OFdJB8BXW/luyUBxWgINqKAFm83/SxRrJW6I9nSjc6SUmteVb/mVBG/wvpl7wQT6MdRi/ULZsfVizMtMeSemDBXFT9DVY44amtM+Acy55nlRICLMtGPOXwU7UIyU4wMTuBULvPrPOl8Uh54CHmN7fEEWU98TMXSqiR3p2knvc17IyPnFjPTINggPuFg9L9a7mo77A=; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1562982233; JSESSIONID=75B53BBAF5E73EC894220CFF43E93AAD] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+14:51:34.362 start [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:51:34.362 start [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+14:51:34.370 start [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+14:54:09.145 start [main] INFO  com.net.start.StartApplication - Starting StartApplication on PS-02 with PID 5716 (started by Admin in D:\开发工具\tts9\tts9\workspace\start)
+14:54:09.152 start [main] INFO  com.net.start.StartApplication - No active profile set, falling back to default profiles: default
+14:54:12.795 start [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+14:54:12.838 start [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+14:54:12.860 start [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:54:12.860 start [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+14:54:12.882 start [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+14:54:12.882 start [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+14:54:12.882 start [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+14:54:12.883 start [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+14:54:14.005 start [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+14:54:14.926 start [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14:54:14.973 start [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:54:14.974 start [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5669 ms
+14:54:16.226 start [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+14:54:17.279 start [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+14:54:17.404 start [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+14:54:17.413 start [main] INFO  com.net.start.StartApplication - Started StartApplication in 9.273 seconds (JVM running for 10.262)
+14:54:17.418 start [main] INFO  com.net.start.StartApplication - ------------成功启动springboot-----------
+14:54:29.070 start [http-nio-8080-exec-1] INFO  o.a.tomcat.util.http.parser.Cookie - A cookie header was received [1560754407,1560837104,1560908165; user=90b93f1f-c1a0-46be-9f3a-6a2c3413fbf0; rememberMe=VxdC/dXdGaPFlCY/sZos031YtSI31jeJWqg1EeEvqiohlRnFa1k52VbxjutiqgSXu0fhYEar6OGCIgR7VjwEBc7zMOJqJPNXlWnWKh4Mi0wSc3XzAW6wD7KBVHgps4bru0XfYaipuBvhoLhWsivSIv2YJd4bFYFYfCs7F45+lAaVE1BafP7K1958/DYC1cLVnHTQEn7ZIzx19YOtg1taYg5dbYpIC1q/ar8fENTAoQt1a0f05TsxaC1f0pVXMBaWutf7d3pIWq1elXtBduPITRHVejpUl3UOOljGWRymIASeOe36ZaDndg1pm6ZuyEYjL4PkPIXlKq9spnHZXyypMcSL1KOo7+gr0HCiY0OFdJB8BXW/luyUBxWgINqKAFm83/SxRrJW6I9nSjc6SUmteVb/mVBG/wvpl7wQT6MdRi/ULZsfVizMtMeSemDBXFT9DVY44amtM+Acy55nlRICLMtGPOXwU7UIyU4wMTuBULvPrPOl8Uh54CHmN7fEEWU98TMXSqiR3p2knvc17IyPnFjPTINggPuFg9L9a7mo77A=; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1562982233; JSESSIONID=75B53BBAF5E73EC894220CFF43E93AAD] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+14:54:29.085 start [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:54:29.085 start [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+14:54:29.097 start [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+14:56:14.875 start [main] INFO  com.net.start.StartApplication - Starting StartApplication on PS-02 with PID 15140 (started by Admin in D:\开发工具\tts9\tts9\workspace\start)
+14:56:14.880 start [main] INFO  com.net.start.StartApplication - No active profile set, falling back to default profiles: default
+14:56:18.396 start [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+14:56:18.423 start [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+14:56:18.442 start [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:56:18.442 start [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+14:56:18.461 start [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+14:56:18.461 start [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+14:56:18.462 start [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+14:56:18.462 start [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+14:56:19.551 start [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+14:56:20.297 start [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14:56:20.332 start [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:56:20.332 start [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5306 ms
+14:56:21.794 start [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+14:56:22.755 start [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+14:56:22.874 start [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+14:56:22.885 start [main] INFO  com.net.start.StartApplication - Started StartApplication in 8.962 seconds (JVM running for 10.068)
+14:56:22.890 start [main] INFO  com.net.start.StartApplication - ------------成功启动springboot-----------
+14:56:28.574 start [http-nio-8080-exec-1] INFO  o.a.tomcat.util.http.parser.Cookie - A cookie header was received [1560754407,1560837104,1560908165; user=90b93f1f-c1a0-46be-9f3a-6a2c3413fbf0; rememberMe=VxdC/dXdGaPFlCY/sZos031YtSI31jeJWqg1EeEvqiohlRnFa1k52VbxjutiqgSXu0fhYEar6OGCIgR7VjwEBc7zMOJqJPNXlWnWKh4Mi0wSc3XzAW6wD7KBVHgps4bru0XfYaipuBvhoLhWsivSIv2YJd4bFYFYfCs7F45+lAaVE1BafP7K1958/DYC1cLVnHTQEn7ZIzx19YOtg1taYg5dbYpIC1q/ar8fENTAoQt1a0f05TsxaC1f0pVXMBaWutf7d3pIWq1elXtBduPITRHVejpUl3UOOljGWRymIASeOe36ZaDndg1pm6ZuyEYjL4PkPIXlKq9spnHZXyypMcSL1KOo7+gr0HCiY0OFdJB8BXW/luyUBxWgINqKAFm83/SxRrJW6I9nSjc6SUmteVb/mVBG/wvpl7wQT6MdRi/ULZsfVizMtMeSemDBXFT9DVY44amtM+Acy55nlRICLMtGPOXwU7UIyU4wMTuBULvPrPOl8Uh54CHmN7fEEWU98TMXSqiR3p2knvc17IyPnFjPTINggPuFg9L9a7mo77A=; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1562982233; JSESSIONID=75B53BBAF5E73EC894220CFF43E93AAD] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+14:56:28.589 start [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:56:28.590 start [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+14:56:28.603 start [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+14:59:45.443 start [main] INFO  com.net.start.StartApplication - Starting StartApplication on PS-02 with PID 18376 (started by Admin in D:\开发工具\tts9\tts9\workspace\start)
+14:59:45.449 start [main] INFO  com.net.start.StartApplication - No active profile set, falling back to default profiles: default
+14:59:48.686 start [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+14:59:48.708 start [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+14:59:48.725 start [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:59:48.726 start [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+14:59:48.743 start [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+14:59:48.743 start [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+14:59:48.743 start [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+14:59:48.743 start [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+14:59:49.827 start [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+14:59:50.406 start [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14:59:50.541 start [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:59:50.541 start [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4945 ms
+14:59:51.520 start [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+14:59:52.373 start [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+14:59:52.488 start [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+14:59:52.495 start [main] INFO  com.net.start.StartApplication - Started StartApplication in 7.98 seconds (JVM running for 8.973)
+14:59:52.498 start [main] INFO  com.net.start.StartApplication - ------------成功启动springboot-----------
+15:00:26.145 start [http-nio-8080-exec-1] INFO  o.a.tomcat.util.http.parser.Cookie - A cookie header was received [1560754407,1560837104,1560908165; user=90b93f1f-c1a0-46be-9f3a-6a2c3413fbf0; rememberMe=VxdC/dXdGaPFlCY/sZos031YtSI31jeJWqg1EeEvqiohlRnFa1k52VbxjutiqgSXu0fhYEar6OGCIgR7VjwEBc7zMOJqJPNXlWnWKh4Mi0wSc3XzAW6wD7KBVHgps4bru0XfYaipuBvhoLhWsivSIv2YJd4bFYFYfCs7F45+lAaVE1BafP7K1958/DYC1cLVnHTQEn7ZIzx19YOtg1taYg5dbYpIC1q/ar8fENTAoQt1a0f05TsxaC1f0pVXMBaWutf7d3pIWq1elXtBduPITRHVejpUl3UOOljGWRymIASeOe36ZaDndg1pm6ZuyEYjL4PkPIXlKq9spnHZXyypMcSL1KOo7+gr0HCiY0OFdJB8BXW/luyUBxWgINqKAFm83/SxRrJW6I9nSjc6SUmteVb/mVBG/wvpl7wQT6MdRi/ULZsfVizMtMeSemDBXFT9DVY44amtM+Acy55nlRICLMtGPOXwU7UIyU4wMTuBULvPrPOl8Uh54CHmN7fEEWU98TMXSqiR3p2knvc17IyPnFjPTINggPuFg9L9a7mo77A=; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1562982233; JSESSIONID=75B53BBAF5E73EC894220CFF43E93AAD] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+15:00:26.159 start [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:00:26.159 start [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:00:26.171 start [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+15:08:26.796 start [main] INFO  com.net.start.StartApplication - Starting StartApplication on PS-02 with PID 19296 (started by Admin in D:\开发工具\tts9\tts9\workspace\start)
+15:08:26.802 start [main] INFO  com.net.start.StartApplication - No active profile set, falling back to default profiles: default
+15:08:30.015 start [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+15:08:30.039 start [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:08:30.056 start [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:08:30.056 start [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+15:08:30.074 start [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+15:08:30.074 start [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+15:08:30.075 start [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+15:08:30.075 start [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+15:08:31.162 start [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+15:08:31.774 start [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15:08:31.924 start [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:08:31.924 start [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4989 ms
+15:08:32.945 start [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+15:08:34.094 start [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:08:34.225 start [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+15:08:34.234 start [main] INFO  com.net.start.StartApplication - Started StartApplication in 8.333 seconds (JVM running for 9.353)
+15:08:34.239 start [main] INFO  com.net.start.StartApplication - ------------成功启动springboot-----------
+15:08:42.705 start [http-nio-8080-exec-1] INFO  o.a.tomcat.util.http.parser.Cookie - A cookie header was received [1560754407,1560837104,1560908165; user=90b93f1f-c1a0-46be-9f3a-6a2c3413fbf0; rememberMe=VxdC/dXdGaPFlCY/sZos031YtSI31jeJWqg1EeEvqiohlRnFa1k52VbxjutiqgSXu0fhYEar6OGCIgR7VjwEBc7zMOJqJPNXlWnWKh4Mi0wSc3XzAW6wD7KBVHgps4bru0XfYaipuBvhoLhWsivSIv2YJd4bFYFYfCs7F45+lAaVE1BafP7K1958/DYC1cLVnHTQEn7ZIzx19YOtg1taYg5dbYpIC1q/ar8fENTAoQt1a0f05TsxaC1f0pVXMBaWutf7d3pIWq1elXtBduPITRHVejpUl3UOOljGWRymIASeOe36ZaDndg1pm6ZuyEYjL4PkPIXlKq9spnHZXyypMcSL1KOo7+gr0HCiY0OFdJB8BXW/luyUBxWgINqKAFm83/SxRrJW6I9nSjc6SUmteVb/mVBG/wvpl7wQT6MdRi/ULZsfVizMtMeSemDBXFT9DVY44amtM+Acy55nlRICLMtGPOXwU7UIyU4wMTuBULvPrPOl8Uh54CHmN7fEEWU98TMXSqiR3p2knvc17IyPnFjPTINggPuFg9L9a7mo77A=; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1562982233; JSESSIONID=75B53BBAF5E73EC894220CFF43E93AAD] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+15:08:42.717 start [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:08:42.717 start [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:08:42.728 start [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+15:11:24.568 start [main] INFO  com.net.start.StartApplication - Starting StartApplication on PS-02 with PID 16320 (started by Admin in D:\开发工具\tts9\tts9\workspace\start)
+15:11:24.576 start [main] INFO  com.net.start.StartApplication - No active profile set, falling back to default profiles: default
+15:11:27.893 start [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+15:11:27.919 start [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:11:27.933 start [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:11:27.933 start [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+15:11:27.950 start [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+15:11:27.950 start [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+15:11:27.951 start [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+15:11:27.951 start [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+15:11:29.048 start [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+15:11:29.750 start [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15:11:29.779 start [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:11:29.780 start [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5073 ms
+15:11:30.789 start [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+15:11:31.747 start [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:11:31.869 start [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+15:11:31.877 start [main] INFO  com.net.start.StartApplication - Started StartApplication in 8.251 seconds (JVM running for 9.258)
+15:11:31.882 start [main] INFO  com.net.start.StartApplication - ------------成功启动springboot-----------
+15:11:39.694 start [http-nio-8080-exec-1] INFO  o.a.tomcat.util.http.parser.Cookie - A cookie header was received [1560754407,1560837104,1560908165; user=90b93f1f-c1a0-46be-9f3a-6a2c3413fbf0; rememberMe=VxdC/dXdGaPFlCY/sZos031YtSI31jeJWqg1EeEvqiohlRnFa1k52VbxjutiqgSXu0fhYEar6OGCIgR7VjwEBc7zMOJqJPNXlWnWKh4Mi0wSc3XzAW6wD7KBVHgps4bru0XfYaipuBvhoLhWsivSIv2YJd4bFYFYfCs7F45+lAaVE1BafP7K1958/DYC1cLVnHTQEn7ZIzx19YOtg1taYg5dbYpIC1q/ar8fENTAoQt1a0f05TsxaC1f0pVXMBaWutf7d3pIWq1elXtBduPITRHVejpUl3UOOljGWRymIASeOe36ZaDndg1pm6ZuyEYjL4PkPIXlKq9spnHZXyypMcSL1KOo7+gr0HCiY0OFdJB8BXW/luyUBxWgINqKAFm83/SxRrJW6I9nSjc6SUmteVb/mVBG/wvpl7wQT6MdRi/ULZsfVizMtMeSemDBXFT9DVY44amtM+Acy55nlRICLMtGPOXwU7UIyU4wMTuBULvPrPOl8Uh54CHmN7fEEWU98TMXSqiR3p2knvc17IyPnFjPTINggPuFg9L9a7mo77A=; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1562982233; JSESSIONID=75B53BBAF5E73EC894220CFF43E93AAD] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+15:11:39.705 start [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:11:39.705 start [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:11:39.717 start [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+15:13:02.379 start [main] INFO  com.net.start.StartApplication - Starting StartApplication on PS-02 with PID 18908 (started by Admin in D:\开发工具\tts9\tts9\workspace\start)
+15:13:02.386 start [main] INFO  com.net.start.StartApplication - No active profile set, falling back to default profiles: default
+15:13:05.842 start [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+15:13:05.863 start [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:13:05.880 start [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:13:05.881 start [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+15:13:05.897 start [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+15:13:05.897 start [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+15:13:05.898 start [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+15:13:05.898 start [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+15:13:06.996 start [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+15:13:07.705 start [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15:13:07.740 start [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:13:07.741 start [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5225 ms
+15:13:08.814 start [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+15:13:09.812 start [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:13:09.941 start [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+15:13:09.948 start [main] INFO  com.net.start.StartApplication - Started StartApplication in 8.572 seconds (JVM running for 9.699)
+15:13:09.953 start [main] INFO  com.net.start.StartApplication - ------------成功启动springboot-----------
+15:13:15.101 start [http-nio-8080-exec-1] INFO  o.a.tomcat.util.http.parser.Cookie - A cookie header was received [1560754407,1560837104,1560908165; user=90b93f1f-c1a0-46be-9f3a-6a2c3413fbf0; rememberMe=VxdC/dXdGaPFlCY/sZos031YtSI31jeJWqg1EeEvqiohlRnFa1k52VbxjutiqgSXu0fhYEar6OGCIgR7VjwEBc7zMOJqJPNXlWnWKh4Mi0wSc3XzAW6wD7KBVHgps4bru0XfYaipuBvhoLhWsivSIv2YJd4bFYFYfCs7F45+lAaVE1BafP7K1958/DYC1cLVnHTQEn7ZIzx19YOtg1taYg5dbYpIC1q/ar8fENTAoQt1a0f05TsxaC1f0pVXMBaWutf7d3pIWq1elXtBduPITRHVejpUl3UOOljGWRymIASeOe36ZaDndg1pm6ZuyEYjL4PkPIXlKq9spnHZXyypMcSL1KOo7+gr0HCiY0OFdJB8BXW/luyUBxWgINqKAFm83/SxRrJW6I9nSjc6SUmteVb/mVBG/wvpl7wQT6MdRi/ULZsfVizMtMeSemDBXFT9DVY44amtM+Acy55nlRICLMtGPOXwU7UIyU4wMTuBULvPrPOl8Uh54CHmN7fEEWU98TMXSqiR3p2knvc17IyPnFjPTINggPuFg9L9a7mo77A=; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1562982233; JSESSIONID=75B53BBAF5E73EC894220CFF43E93AAD] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+15:13:15.110 start [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:13:15.111 start [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:13:15.120 start [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+15:14:57.658 start [main] INFO  com.net.start.StartApplication - Starting StartApplication on PS-02 with PID 17056 (started by Admin in D:\开发工具\tts9\tts9\workspace\start)
+15:14:57.665 start [main] INFO  com.net.start.StartApplication - No active profile set, falling back to default profiles: default
+15:15:00.912 start [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+15:15:00.936 start [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:15:00.956 start [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:15:00.956 start [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+15:15:00.978 start [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+15:15:00.979 start [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+15:15:00.979 start [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+15:15:00.979 start [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+15:15:02.074 start [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+15:15:02.765 start [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15:15:02.799 start [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:15:02.799 start [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4998 ms
+15:15:04.026 start [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+15:15:04.987 start [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:15:05.123 start [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+15:15:05.131 start [main] INFO  com.net.start.StartApplication - Started StartApplication in 8.444 seconds (JVM running for 9.531)
+15:15:05.134 start [main] INFO  com.net.start.StartApplication - ------------成功启动springboot-----------
+15:15:12.076 start [http-nio-8080-exec-1] INFO  o.a.tomcat.util.http.parser.Cookie - A cookie header was received [1560754407,1560837104,1560908165; user=90b93f1f-c1a0-46be-9f3a-6a2c3413fbf0; rememberMe=VxdC/dXdGaPFlCY/sZos031YtSI31jeJWqg1EeEvqiohlRnFa1k52VbxjutiqgSXu0fhYEar6OGCIgR7VjwEBc7zMOJqJPNXlWnWKh4Mi0wSc3XzAW6wD7KBVHgps4bru0XfYaipuBvhoLhWsivSIv2YJd4bFYFYfCs7F45+lAaVE1BafP7K1958/DYC1cLVnHTQEn7ZIzx19YOtg1taYg5dbYpIC1q/ar8fENTAoQt1a0f05TsxaC1f0pVXMBaWutf7d3pIWq1elXtBduPITRHVejpUl3UOOljGWRymIASeOe36ZaDndg1pm6ZuyEYjL4PkPIXlKq9spnHZXyypMcSL1KOo7+gr0HCiY0OFdJB8BXW/luyUBxWgINqKAFm83/SxRrJW6I9nSjc6SUmteVb/mVBG/wvpl7wQT6MdRi/ULZsfVizMtMeSemDBXFT9DVY44amtM+Acy55nlRICLMtGPOXwU7UIyU4wMTuBULvPrPOl8Uh54CHmN7fEEWU98TMXSqiR3p2knvc17IyPnFjPTINggPuFg9L9a7mo77A=; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1562982233; JSESSIONID=75B53BBAF5E73EC894220CFF43E93AAD] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+15:15:12.088 start [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:15:12.089 start [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:15:12.100 start [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+15:34:52.558 start [main] INFO  com.net.start.StartApplication - Starting StartApplication on PS-02 with PID 14712 (started by Admin in D:\开发工具\tts9\tts9\workspace\start)
+15:34:52.564 start [main] INFO  com.net.start.StartApplication - No active profile set, falling back to default profiles: default
+15:34:55.539 start [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+15:34:55.563 start [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:34:55.581 start [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:34:55.582 start [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+15:34:55.600 start [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+15:34:55.600 start [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+15:34:55.601 start [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+15:34:55.601 start [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+15:34:56.687 start [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+15:34:57.231 start [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15:34:57.365 start [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:34:57.365 start [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4697 ms
+15:34:58.216 start [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+15:34:58.971 start [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:34:59.090 start [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+15:34:59.095 start [main] INFO  com.net.start.StartApplication - Started StartApplication in 7.41 seconds (JVM running for 8.453)
+15:34:59.100 start [main] INFO  com.net.start.StartApplication - ------------成功启动springboot-----------
+15:37:12.021 start [main] INFO  com.net.start.StartApplication - Starting StartApplication on PS-02 with PID 18984 (started by Admin in D:\开发工具\tts9\tts9\workspace\start)
+15:37:12.029 start [main] INFO  com.net.start.StartApplication - No active profile set, falling back to default profiles: default
+15:37:14.994 start [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+15:37:15.014 start [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:37:15.026 start [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:37:15.026 start [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+15:37:15.040 start [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+15:37:15.040 start [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+15:37:15.040 start [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+15:37:15.040 start [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+15:37:16.121 start [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+15:37:16.612 start [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15:37:16.729 start [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:37:16.729 start [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4555 ms
+15:37:17.598 start [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+15:37:18.347 start [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:37:18.447 start [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+15:37:18.453 start [main] INFO  com.net.start.StartApplication - Started StartApplication in 7.331 seconds (JVM running for 8.267)
+15:37:18.457 start [main] INFO  com.net.start.StartApplication - ------------成功启动springboot-----------
+15:38:14.863 start [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:38:14.863 start [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:38:14.878 start [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 14 ms
+15:39:35.534 start [http-nio-8080-exec-3] INFO  o.a.tomcat.util.http.parser.Cookie - A cookie header was received [1560754407,1560837104,1560908165; user=90b93f1f-c1a0-46be-9f3a-6a2c3413fbf0; rememberMe=VxdC/dXdGaPFlCY/sZos031YtSI31jeJWqg1EeEvqiohlRnFa1k52VbxjutiqgSXu0fhYEar6OGCIgR7VjwEBc7zMOJqJPNXlWnWKh4Mi0wSc3XzAW6wD7KBVHgps4bru0XfYaipuBvhoLhWsivSIv2YJd4bFYFYfCs7F45+lAaVE1BafP7K1958/DYC1cLVnHTQEn7ZIzx19YOtg1taYg5dbYpIC1q/ar8fENTAoQt1a0f05TsxaC1f0pVXMBaWutf7d3pIWq1elXtBduPITRHVejpUl3UOOljGWRymIASeOe36ZaDndg1pm6ZuyEYjL4PkPIXlKq9spnHZXyypMcSL1KOo7+gr0HCiY0OFdJB8BXW/luyUBxWgINqKAFm83/SxRrJW6I9nSjc6SUmteVb/mVBG/wvpl7wQT6MdRi/ULZsfVizMtMeSemDBXFT9DVY44amtM+Acy55nlRICLMtGPOXwU7UIyU4wMTuBULvPrPOl8Uh54CHmN7fEEWU98TMXSqiR3p2knvc17IyPnFjPTINggPuFg9L9a7mo77A=; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1562982233; JSESSIONID=6F0AC4FC72300C3A59CBC0CC8913693C] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+15:47:40.141 start [main] INFO  com.net.start.StartApplication - Starting StartApplication on PS-02 with PID 18364 (started by Admin in D:\开发工具\tts9\tts9\workspace\start)
+15:47:40.147 start [main] INFO  com.net.start.StartApplication - No active profile set, falling back to default profiles: default
+15:47:43.174 start [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+15:47:43.196 start [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:47:43.213 start [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:47:43.213 start [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+15:47:43.228 start [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+15:47:43.228 start [main] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+15:47:43.228 start [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+15:47:43.229 start [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+15:47:44.312 start [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+15:47:44.829 start [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15:47:44.960 start [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:47:44.961 start [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4676 ms
+15:47:45.939 start [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+15:47:46.827 start [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:47:46.947 start [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+15:47:46.954 start [main] INFO  com.net.start.StartApplication - Started StartApplication in 7.638 seconds (JVM running for 8.628)
+15:47:46.960 start [main] INFO  com.net.start.StartApplication - ------------成功启动springboot-----------
+15:47:54.053 start [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:47:54.053 start [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:47:54.066 start [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+15:48:18.768 start [http-nio-8080-exec-3] INFO  o.a.tomcat.util.http.parser.Cookie - A cookie header was received [1560754407,1560837104,1560908165; user=90b93f1f-c1a0-46be-9f3a-6a2c3413fbf0; rememberMe=VxdC/dXdGaPFlCY/sZos031YtSI31jeJWqg1EeEvqiohlRnFa1k52VbxjutiqgSXu0fhYEar6OGCIgR7VjwEBc7zMOJqJPNXlWnWKh4Mi0wSc3XzAW6wD7KBVHgps4bru0XfYaipuBvhoLhWsivSIv2YJd4bFYFYfCs7F45+lAaVE1BafP7K1958/DYC1cLVnHTQEn7ZIzx19YOtg1taYg5dbYpIC1q/ar8fENTAoQt1a0f05TsxaC1f0pVXMBaWutf7d3pIWq1elXtBduPITRHVejpUl3UOOljGWRymIASeOe36ZaDndg1pm6ZuyEYjL4PkPIXlKq9spnHZXyypMcSL1KOo7+gr0HCiY0OFdJB8BXW/luyUBxWgINqKAFm83/SxRrJW6I9nSjc6SUmteVb/mVBG/wvpl7wQT6MdRi/ULZsfVizMtMeSemDBXFT9DVY44amtM+Acy55nlRICLMtGPOXwU7UIyU4wMTuBULvPrPOl8Uh54CHmN7fEEWU98TMXSqiR3p2knvc17IyPnFjPTINggPuFg9L9a7mo77A=; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1562982233; JSESSIONID=6F0AC4FC72300C3A59CBC0CC8913693C] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.

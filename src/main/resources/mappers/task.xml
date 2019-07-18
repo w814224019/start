@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"      
+	"http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+
+<mapper namespace="com.net.start.mapper.TaskMapper">
+
+<!-- List<Task> findAllTask(); -->
+<select id="findAllTask" resultType="com.net.start.entity.Task">
+	select 
+	*
+	from dingshi
+where status=0
+	</select>
+	<!-- List<Task> findTasksBylineId(Integer lineId); -->
+	<select id="findTasksBylineId" resultType="com.net.start.entity.Task">
+	select 
+	*
+	from dingshi
+where status=0 and lineId=#{lineId}
+	</select>
+	<!-- Task findMaxBylineId(Integer lineId); -->
+	<select id="findMaxBylineId" resultType="com.net.start.entity.Task">
+	select 
+	*
+	from dingshi
+where status=0 and 
+id=(SELECT MAX(id) from dingshi where status=0 and lineId=#{lineId})
+	</select>
+	<!-- Task findBydsId(Integer id,String time); -->
+	<select id="findBydsId" resultType="com.net.start.entity.Task">
+	select 
+	*
+	from dingshi
+where status=0 and lineId=#{lineId} and time=#{time}
+	</select>
+	<!-- List<Task> findByLikeN(@Param("name")String Name); -->
+	<select id="findByLikeN" resultType="com.net.start.entity.Task">
+	SELECT * FROM 
+	dingshi 
+	WHERE (time LIKE '%${name}%' 
+	) 
+	</select>
+	
+	<!-- Integer addNewTask(Task task); -->
+	<insert id="addNewTask" parameterType="com.net.start.entity.Task"
+     useGeneratedKeys="true" keyProperty="id">
+	insert into dingshi
+	(id,lineId,time,status
+	
+	)
+	values
+	(#{id},#{lineId},#{time},#{status}
+	)
+	</insert>
+	<!-- Integer UpdateTask(@Param("id")Integer id,@Param("lineId")Integer lineId,@Param("time")Integer time,@Param("status")Integer status); -->
+	<update id="UpdateTask">
+	update dingshi
+	set
+	<if test="status!=null">
+	status=#{status}
+	</if>
+	where 
+	time=#{time} and lineId=#{lineId}
+	</update>
+</mapper>
+
+
+
+
+

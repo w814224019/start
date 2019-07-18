@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html >
+<head>
+<meta charset="UTF-8">
+<title>新建物流信息</title>
+<script src="../bootstrap3/js/holder.js"></script>
+		<link href="../bootstrap3/css/bootstrap.css" rel="stylesheet" type="text/css">
+		<script src="../bootstrap3/jquery-1.9.1.min.js"></script>
+		<script src="../bootstrap3/js/bootstrap.js"></script>
+</head>
+<body>
+
+<form id="form-insert"  enctype="multipart/form-data" >
+		<!--上传头像表单开始-->
+					
+						<div class="form-group">
+							<label  class="col-md-2 control-label">选择图片:</label>
+							<div class="col-md-8">
+								<img id="img" src="..\images\1548847547525.jpg" width="70" />
+							<span>	<input type="file" name="file" id="file" ></span>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<div class="col-sm-offset-2 col-sm-10">
+								<input type="button" id="upload" value="上传" /><br/>
+							</div>
+						</div>
+					
+公司全称:<input name="company"><br/>
+公司uid:<input name="uid"><br/>
+公司图片:<input id="avatar" name="avatar"><br/>
+出发地:<input name="cityFrom" ><br/>
+到达地:<input name="cityTo" ><br/>
+固话:<input name="tele"><br/>
+手机:<input name="phone"><br/>
+QQ:<input name="qq"><br/>
+邮箱:<input type="text" name="email"><br/>
+用户名:<input  name="username"><br/>
+密码:<input type="password" name="password"><br/>
+<input type="button" id="btn-insert" value="提交">
+</form>
+<script type="text/javascript">
+
+$("#upload").click(function(){
+	alert("点击上传按钮");
+	var url="../user/upload.do";
+	var fileObj=document.getElementById("file").files[0];
+	if(typeof(fileObj)=="undefined"||fileObj.size<=0){
+		alert("请选择图片");
+		return;
+	}
+	var formFile=new FormData();
+	//formFile.append("action","");
+	formFile.append("file",fileObj);
+	var data=formFile;
+	$.ajax({ 
+		"url":url,
+		"data":data,
+	   // async:false,
+	    cache:false,
+	    contentType:false,
+	    processData:false,
+		
+		"type":"post",
+	"dataType":"json",
+	"success":function(json){
+		if(json.state==200){
+			alert("上传成功！"+json.data+json.state);
+			$("#img").attr("src",json.data);
+			$("#avatar").val(json.data);
+		}else{
+			alert(json.message);
+		}
+		
+	}
+});
+
+
+});
+$("#btn-insert").click(function(){
+		var url="../user/insert.do";
+		var data=$("#form-insert").serialize();
+		console.log("注册参数:"+data);
+		$.ajax({
+			"url":url,
+			"data":data,
+			"type":"post",
+			"dataType":"json",
+			"success":function(json){
+				if(json.state==200){
+					alert("注册成功！"+json.data+json.state);
+					
+					location.href="test";
+				}else{
+					alert(json.message);
+				}
+				
+			}
+			
+			
+		});
+		
+		
+		
+		});
+		
+		
+		</script>  
+</body>
+
+
+
+</html>
