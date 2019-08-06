@@ -6,6 +6,8 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLEncoder;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * 递归
@@ -16,7 +18,30 @@ public class digui {
 	
 public static void main(String[] args) throws IOException {
 	
-	 String APIKEY = "6aca1781a549434d917bb3f2087f574c"; 
+	String a="看新闻00";
+	String str = "北京欢迎你 hello welcome!";
+	int count=0;
+	Pattern pattern = Pattern.compile("[\u4e00-\u9fa5]");
+	char c[] = str.toCharArray();
+	for(int i=0;i<c.length;i++){
+		Matcher matcher = pattern.matcher(String.valueOf(c[i]));
+		if(matcher.matches()){
+			System.out.println(String.valueOf(c[i]));
+			count++;
+		}
+	}
+	System.out.println(count);
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	 /*String APIKEY = "6aca1781a549434d917bb3f2087f574c"; 
      String INFO = URLEncoder.encode("北京今日天气", "utf-8"); 
     String getURL = "http://www.tuling123.com/openapi/api?key=" + APIKEY + "&info=" + INFO; 
     URL getUrl = new URL(getURL); 
@@ -33,7 +58,7 @@ public static void main(String[] args) throws IOException {
     reader.close(); 
     // 断开连接 
     connection.disconnect(); 
-    System.out.println(sb); 
+    System.out.println(sb); */
 	
 	//System.out.println(fun(3));
 }

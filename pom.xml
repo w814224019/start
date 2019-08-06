@@ -124,11 +124,13 @@
         </dependency>
 
 
-        <dependency>
-                <groupId>com.alipay</groupId>
-                <artifactId>alipay-sdk</artifactId>
-                <version>java20170324180803</version>
-            </dependency>
+         <dependency>
+              <groupId>com.alipay</groupId>
+               <artifactId>sdk-java</artifactId>
+                <version>20170324180803</version>
+               <scope>system</scope>
+        <systemPath>${pom.basedir}/lib/sdk-java-java2017032418083.jar</systemPath>
+                 </dependency>
 
         <dependency>
             <groupId>com.alibaba</groupId>
@@ -177,6 +179,25 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+				
+				<includeSystemScope>true</includeSystemScope>
+				
+				 <executions>
+ 
+        <execution>
+
+            <goals>
+
+                <goal>repackage</goal>
+
+            </goals>
+
+        </execution>
+
+    </executions>
+				
+          </configuration>
 			</plugin>
 		</plugins>
 	</build>
